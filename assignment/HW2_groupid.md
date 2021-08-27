@@ -15,7 +15,7 @@ summary(writeHand)
 mean(cats[,2])
 #2.723611
 
-3.)ส่วนสูงเฉลี่ยของเพศหญิง
+3.)The average of height of females is 160 cm.
 with(survey,
      aggregate(survey$Height,na.rm = TRUE,
                by=list(Gender=Sex),
@@ -24,9 +24,14 @@ with(survey,
 1 Female 165.6867
 2   Male 178.8260
 
-4.)นักเรียนที่ออกกำลังบ่อย จะมีอัตราชีพจรต่ำสุดนาที
 
-5.)มีนักเรียนที่ไม่เคยสูบบุหรี่เลยเป็นจำนวนมาก
+
+5.)The students who never smoked at all had the highest number.
+factor(survey[,9])
+smoke <- factor(survey[,9])
+summary(smoke)
+#Heavy Never Occas Regul  NA's 
+   11   189    19    17     1 
 
 6.)แมวที่มีน้ำหนักหัวใจน้อยที่สุดจะมีน้ำหนักตัวน้อยที่สุดเช่นกัน
 
@@ -38,7 +43,6 @@ with(cats,
 #  Gender        x
 1      F 2.359574
 2      M 2.900000
-8.)แมวที่น้ำหนักตัวเกินค่าเฉลี่ยส่วนใหญ่เป็นเพศอะไร
 
 9.)หาค่าเฉลี่ยความกว้างของมือเพศชาย
 mean(survey$Wr.Hnd, na.rm = TRUE)
@@ -53,15 +57,16 @@ factor(survey[,8])
 Exer <- factor(survey[,8])
 summary(Exer)
 
-11.)เพศหญิงไม่สูบบุหรี่เลย
 
-12.)แมวมีทั้งหมดกี่ตัว
 
-13.)น้ำหนักตัวแมวทั้งหมด
+
+.)น้ำหนักตัวแมวทั้งหมด
 sum(cats[,2])
 #392.2
 
 sd(cats[,2])
+4.)นักเรียนที่ออกกำลังบ่อย จะมีอัตราชีพจรต่ำสุดนาที
+8.)แมวที่น้ำหนักตัวเกินค่าเฉลี่ยส่วนใหญ่เป็นเพศอะไร
 
 
 ### Team: โอ๊ยโย้ยโหยว (เสียงที่ 18)
