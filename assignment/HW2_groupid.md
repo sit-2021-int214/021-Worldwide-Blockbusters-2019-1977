@@ -12,8 +12,8 @@ summary(writeHand)
 ```
  Left Right  NA's
   18   218    1
+  # False because from summary, show about the most writing hand's of students is right hand.
 ```
-   - ไม่จริง เพราะว่า จากข้อมูลมีคนมือถนัดขวามากกว่ามือซ้าย
 -----------------------------------------------------------------------------------------------------------------------
 
 ## 2. The average of body weight of cats is 3 kg.
@@ -24,10 +24,11 @@ mean(cats[,2])
 ### Answer     
 ```
 2.723611
+ # False because the answer of mean is 2.723611 kg.
 ``` 
 -----------------------------------------------------------------------------------------------------------------------
 
-## 3. Find the average of height of females is 160 cm ?
+## 3. The average of women height are 160 cm.
 ```
 with(survey,
      aggregate(survey$Height,na.rm = TRUE,
@@ -39,10 +40,11 @@ with(survey,
    Gender        x
 1  Female    165.6867
 2  Male      178.8260
+ # False because the average of women height are 165.6867 cm.
 ```
 -----------------------------------------------------------------------------------------------------------------------
 
-## 4. Find the students who never smoked at all had the highest number ?
+## 4. The students who never smoked at all had the highest number.
 ```
 factor(survey[,9])
 smoke <- factor(survey[,9])
@@ -52,6 +54,7 @@ summary(smoke)
 ```
   Heavy Never Occas Regul  NA's 
    11   189    19    17     1 
+   # True because from summary, show about the most students who never smoked had 189 people.
 ```
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -67,6 +70,7 @@ with(cats,
     Gender        x
 1     F       2.359574
 2     M       2.900000
+ # The average weight of male cats are 2.900000 and female cats are 2.359574 kg.
 ```
 -----------------------------------------------------------------------------------------------------------------------
 ## 6. Find the average of span of writing hand ?
@@ -76,9 +80,11 @@ mean(survey$Wr.Hnd, na.rm = TRUE)
 ### Answer
 ```
 18.66907
+ # The average of span of writing hand is 18.66907. From survey table, it has NA values. 
+   So we use "na.rm" argument for remove NA values.
 ```
 -----------------------------------------------------------------------------------------------------------------------
-## 7. How often do most students exercise ?
+## 7. How often do students exercise ?
 ```
 Mode(survey[,8])
 
@@ -90,6 +96,7 @@ summary(Exer)
 ```
  Freq  None  Some 
  115    24    98 
+  # The summary show the students do exercise have 3 values, are frequently is 115, Some is 98 and None is 24 people.
  ```
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -100,6 +107,7 @@ sum(cats[,2])
 ### Answer
 ```
 392.2
+ # We use "sum" function to find the total weight of cats. Value is 392.2 kg.
 ```
 -----------------------------------------------------------------------------------------------------------------------
 
