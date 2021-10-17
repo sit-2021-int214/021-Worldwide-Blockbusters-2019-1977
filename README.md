@@ -1,42 +1,43 @@
 # 021-Worldwide Blockbusters 2019-1977
+
 Original datasets from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
 
 
 ### About's Worldwide Blockbusters 2019-1977
-บลาๆ The dataset include the following many features [click here](ลิ้งไป dataset เราใน repo) for more.
+
+บลาๆ [click here](ลิ้งไป dataset เราใน repo).
 
 
 ### Overview
+
 Why we choose ?
 
 
 ### Objects
+
 What we want to know :
-1. 
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-
-
-### Steps
 1. 
 2. 
 3. 
 4. 
-5. 
+5.
+
+
+### Steps
+
+1. Define a question
+2. Observe...
+ 
 
 
 ### Tools
+
 - R Language
 - R Studio Desktop
 
 
 ## Table of Contents
+
 1. 
 2. 
 
@@ -47,10 +48,14 @@ What we want to know :
 
 ## Reference
 
+// Link
 
 ## About Us
+
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+
 ### Team : โอ๊ยโย้ยโหยว (เสียงที่ 18)
+
 | No. | Name                     |  Student ID   |
 |:---:|--------------------------|---------------|
 |  1  | นางสาวพัชราภรณ์ เหง้าศิริ     |  63130500003  |
@@ -61,6 +66,7 @@ What we want to know :
 
 
 ### Instructor
+
 - ATCHARA TRAN-U-RAIKUL
 - JATAWAT XIE (Git: [safesit23](https://github.com/safesit23))
 
