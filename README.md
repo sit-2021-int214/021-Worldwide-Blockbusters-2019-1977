@@ -1,5 +1,5 @@
 # 021-Worldwide Blockbusters 2019-1977
-Orginal datasets from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
+Original datasets from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
 
 
 ### About's Worldwide Blockbusters 2019-1977
@@ -7,11 +7,11 @@ Orginal datasets from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.co
 
 
 ### Overview
-Why choose ?
+Why we choose ?
 
 
 ### Objects
-สิ่งที่ต้องการจะทราบ :
+What we want to know :
 1. 
 2.
 3.
