@@ -1,30 +1,30 @@
 # 021-Worldwide Blockbusters 2019-1977
 
-Original datasets from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
+Original dataset from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
 
 
 ### About's Worldwide Blockbusters 2019-1977
 
-บลาๆ [click here](ลิ้งไป dataset เราใน repo).
+The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 highest grossing films worldwide between the years 2019 and 1977. [Cilck here](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) for more information about this dataset.
 
 
 ### Overview
 
 Why we choose ?
 
-
-### Objects
+## Objects
 
 What we want to know :
-
-1. 
-
+1.   
+2.
 
 
 ### Steps
 
 1. Define a question
-2. Observe...
+2. Search datasets from Kaggle
+3. Download Library and dataset
+4. 
  
 
 
