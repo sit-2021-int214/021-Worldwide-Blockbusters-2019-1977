@@ -1,4 +1,4 @@
-# 021-Worldwide Blockbusters 2019-1977
+# Group 21 - Worldwide Blockbusters 2019-1977
 
 Original dataset from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
 
