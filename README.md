@@ -8,11 +8,11 @@ Original dataset from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.co
 The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 highest grossing films worldwide between the years 2019 and 1977. [Cilck here](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) for more information about this dataset.
 
 
-### Overview
+## Overview
 
 Why we choose ?
 
-## Objects
+### Objects
 
 What we want to know :
 1.   
@@ -26,7 +26,6 @@ What we want to know :
 3. Download Library and dataset
 4. 
  
-
 
 ### Tools
 
@@ -44,7 +43,7 @@ What we want to know :
 ### Important Files in Repository
 
 
-## Reference
+### References
 
 // Link
 
