@@ -47,9 +47,10 @@ What we want to know :
 
 ### Important Files in Repository
 
+- [Blockbusters_2019-1977.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
 //example
 - [clean-data.R](./clean-data.R) : Data Cleaning and Data Transformation
-- [SurveyINT214_original.csv](./SurveyINT214_original.csv): Original Dataset
+
 
 
 ### References
