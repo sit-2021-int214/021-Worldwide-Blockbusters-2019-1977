@@ -10,7 +10,10 @@ The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 
 
 ## Overview
 
-Why we choose ?
+เนื่องจากสมาชิกในกลุ่มมีความสนใจเกี่ยวกับภาพยนตร์เป็นอย่างยิ่ง จึงอยากทราบข้อมูลเชิงลึก เช่น เงินทุน, รายได้, rating และอื่น ๆ เพื่อทำให้คนที่สนใจในภาพยนตร์ สามารถเลือกดูได้ตามความเหมาะสม
+//
+เนื่องจากการสร้างภาพยนต์มีการลงทุนเป็นอย่างมาก ทางคณะผู้จัดทำจึงคิดว่าการนำข้อมูลชุดนี้มาวิเคราะห์เป็นสิ่งที่น่าสนใจ เพราะมีทั้ง เงินทุน, รายได้ และแนวหนัง ทำให้ได้รู้ความสำเร็จในการสร้างภาพยนต์ของแต่ละเรื่อง อีกทั้งยังสามารถให้บุคคลที่สนใจในเรื่องภาพยนต์ได้มาเลือกดูตามความเหมาะสมตามที่ทางคณะผู้จัดทำได้วิเคราะห์ไว้
+
 
 ### Objects
 
@@ -49,10 +52,9 @@ What we want to know :
 
 ## Table of Contents
 
-// example
-1. [Define a question]()
+1. [Exploratory Data Analysis]()
 2. [Data Cleaning and Data Transformation]()
-3. [Exploratory Data Analysis]()
+3. [Data Visualization](final)
 
 ## Resources
 
@@ -60,7 +62,7 @@ What we want to know :
 
 - [Blockbusters_2019-1977.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
 //example
-- [clean-data.R](./clean-data.R) : Data Cleaning and Data Transformation
+- [blockbusters_clean](./clean-data.csv) : Data Cleaning and Data Transformation
 
 
 
