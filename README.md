@@ -15,6 +15,7 @@ Why we choose ?
 ### Objects
 
 What we want to know :
+
 1.   
 2.
 
@@ -24,9 +25,11 @@ What we want to know :
 1. Define a question
 2. Search datasets from Kaggle
 3. Download Library and dataset
-4. 
- 
+4. Explore the dataset from the original dataset
+5. Cleaning Dataset
+6. Exploratory Data Analysis
 
+ 
 ### Tools
 
 - R Language
@@ -35,12 +38,18 @@ What we want to know :
 
 ## Table of Contents
 
-1. 
-2. 
+// example
+1. [Define a question]()
+2. [Data Cleaning and Data Transformation]()
+3. [Exploratory Data Analysis]()
 
 ## Resources
 
 ### Important Files in Repository
+
+//example
+- [clean-data.R](./clean-data.R) : Data Cleaning and Data Transformation
+- [SurveyINT214_original.csv](./SurveyINT214_original.csv): Original Dataset
 
 
 ### References
