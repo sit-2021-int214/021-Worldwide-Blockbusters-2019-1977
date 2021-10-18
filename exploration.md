@@ -1,5 +1,6 @@
 # Exploratory Data Analysis
-![Movie-and-popcorn](https://user-images.githubusercontent.com/68915844/137787052-8a0fc3bd-5177-4402-bc33-676cd9f2f7cb.png)
+![fall-movies-index-1628968089](https://user-images.githubusercontent.com/68915844/137787092-f32bf8ce-2923-4007-8c28-4cde095ef26c.jpg)
+
 
 ## Steps
 1. Search datasets from Kaggle
