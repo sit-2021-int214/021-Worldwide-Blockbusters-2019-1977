@@ -12,6 +12,7 @@
 ## Step 1 : Search datasets from Kaggle
 
 `เนื่องจากสมาชิกในกลุ่มมีความสนใจเกี่ยวกับภาพยนตร์เป็นอย่างยิ่ง จึงอยากทราบข้อมูลเชิงลึก บลา ๆ`
+
 Dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
 
 ## Step 2 : Explore the dataset from the original dataset
@@ -25,18 +26,18 @@ Dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
 ## Step 3 : Loading library and dataset
 ```
 # Install packages
-install.packages("dplyr")
-install.packages("stringr")
-install.packages("tidyr")
-install.packages("assertive")
-install.packages("readr")
+   install.packages("dplyr")
+   install.packages("stringr")
+   install.packages("tidyr")
+   install.packages("assertive")
+   install.packages("readr")
 
 # Listing packages
-library(dplyr)
-library(stringr)
-library(tidyr)
-library(assertive)
-library(readr)
+   library(dplyr)
+   library(stringr)
+   library(tidyr)
+   library(assertive)
+   library(readr)
 
 # Import the dataset
 blockbusters <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/main/Blockbusters_2019-1977.csv")
@@ -55,12 +56,12 @@ View(blockbusters)
 ```
 # Cleaning Data
 ## Replace the NA values to NULL
-blockbusters$mpaa_rating <- replace(blockbusters$mpaa_rating, is.na(blockbusters$mpaa_rating), 'NULL')
-blockbusters$genre_2 <- replace(blockbusters$genre_2, is.na(blockbusters$genre_2), 'NULL')
-blockbusters$genre_3 <- replace(blockbusters$genre_3, is.na(blockbusters$genre_3), 'NULL')
+   blockbusters$mpaa_rating <- replace(blockbusters$mpaa_rating, is.na(blockbusters$mpaa_rating), 'NULL')
+   blockbusters$genre_2 <- replace(blockbusters$genre_2, is.na(blockbusters$genre_2), 'NULL')
+   blockbusters$genre_3 <- replace(blockbusters$genre_3, is.na(blockbusters$genre_3), 'NULL')
 
 ## View dataset
-View(blockbusters) 
+   View(blockbusters) 
 
 ```
 
@@ -99,16 +100,145 @@ View(blockbusters)
 ### 2.
 
 #### code
-```{R}
+```
 
 ```
 #### result
-```{R}
+```
 
 ```
 
 #### sum up
-```{R}
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+### 3.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+### 4.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+### 5.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+### 6.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+### 7.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+## 8.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+## 9.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
+
+```
+-----------------------------------------------------------------------------------------------------------------------
+
+## 10.
+
+#### code
+```
+
+```
+#### result
+```
+
+```
+
+#### sum up
+```
 
 ```
 -----------------------------------------------------------------------------------------------------------------------
