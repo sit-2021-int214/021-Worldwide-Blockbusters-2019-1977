@@ -51,8 +51,14 @@ View(blockbusters)
 `อธิบายข้อมูลเรา มีไรบ้าง บลา ๆ`
 
   
-     
-## Step 5 : Cleaning Dataset
+## Step 5 : Transformation
+```
+##Mutate add new variables 
+   blockbusters <- blockbusters %>% mutate(earn = worldwide_gross - film_budget)
+   
+```   
+
+## Step 6 : Cleaning Dataset
 ```
 # Cleaning Data
 ## Replace the NA values to NULL
@@ -65,7 +71,7 @@ View(blockbusters)
 
 ```
 
-## Step 6 : Define a question
+## Step 7 : Define a question
 1. หนังเรื่องไหนทำรายได้มากที่สุด (รายได้ - ต้นทุน)
 2. ค่ายไหนทำรายได้ได้มากที่สุดของปีนั้น ๆ
 3. ในปี 2019 joker อยู่ลำดับที่เท่าไหร่ แล้วทำรายได่เท่าไหร่
