@@ -24,21 +24,21 @@ Dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
  
 #### ใน dataset นี้ ประกอบไปด้วย 
 
-1. release_year	 ปีที่ฉายภาพยนต์
-2. rank_in_year  อันดับของภาพยนต์ที่ได้ ในปีนั้น
-3. imdb_rating   คะแนน IMDb ที่ภาพยนต์ได้รับ 
+  1. release_year	 ปีที่ฉายภาพยนต์
+  2. rank_in_year  อันดับของภาพยนต์ที่ได้ ในปีนั้น
+  3. imdb_rating   คะแนน IMDb ที่ภาพยนต์ได้รับ 
    
    (IMDb คือ เว็บไซต์ฐานข้อมูลเกี่ยวกับภาพยนตร์ทั่วโลก ตั้งแต่นักแสดง ผู้กำลัง และอื่นๆ อีกมากมาย ชื่อเต็มคือ The Internet Movie Database )
-4. mpaa_rating Motion Picture Association of America หรือ MPAA คือการจำแนกประเภทภาพยนต์
-5. film_title     ชื่อภาพยนต์
-6. film_budget	   จำนวนเงินลงทุน
-7. length_in_min  ความยาวของภาพยนต์ (หน่วยเป็น นาที)
-8. domestic_distributor   ค่ายหนังของภาพยนต์
-9. worldwide_gross	  รายได้รวมทั่วโลกของภาพยนต์นั้นๆ
-10. domestic_gross	  รายได้รวมในประเทศ
-11. genre_1	 ประเภทของภาพยนต์ ประเภทที่ 1
-12. genre_2	 ประเภทของภาพยนต์ ประเภทที่ 2
-13. genre_3  ประเภทของภาพยนต์ ประเภทที่ 3
+  4. mpaa_rating Motion Picture Association of America หรือ MPAA คือการจำแนกประเภทภาพยนต์
+  5. film_title     ชื่อภาพยนต์
+  6. film_budget	   จำนวนเงินลงทุน
+  7. length_in_min  ความยาวของภาพยนต์ (หน่วยเป็น นาที)
+  8. domestic_distributor   ค่ายหนังของภาพยนต์
+  9. worldwide_gross	  รายได้รวมทั่วโลกของภาพยนต์นั้นๆ
+ 10. domestic_gross	  รายได้รวมในประเทศ
+ 11. genre_1	 ประเภทของภาพยนต์ ประเภทที่ 1
+ 12. genre_2	 ประเภทของภาพยนต์ ประเภทที่ 2
+ 13. genre_3  ประเภทของภาพยนต์ ประเภทที่ 3
 
 ## Step 3 : Loading library and dataset
 ```
