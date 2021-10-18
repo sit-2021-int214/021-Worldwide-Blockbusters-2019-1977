@@ -1,3 +1,4 @@
+![popcorn-11538608807kijjqjksnz](https://user-images.githubusercontent.com/68915844/137787361-75506278-961d-4f3d-944b-01f1ecf70ce0.png)
 # Exploratory Data Analysis
 ![fall-movies-index-1628968089](https://user-images.githubusercontent.com/68915844/137787092-f32bf8ce-2923-4007-8c28-4cde095ef26c.jpg)
 
