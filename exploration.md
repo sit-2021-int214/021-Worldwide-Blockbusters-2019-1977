@@ -248,7 +248,7 @@ release_year   mpaa_rating            n
 
 #### code
 ```
-    blockbusters %>% filter(imdb_rating == max(imdb_rating)) %>% select(film_title, imdb_rating)
+blockbusters %>% filter(imdb_rating == max(imdb_rating)) %>% select(film_title, imdb_rating)
 ```
 #### result
 ```
