@@ -2,7 +2,7 @@
 ![fall-movies-index-1628968089](https://user-images.githubusercontent.com/68915844/137787092-f32bf8ce-2923-4007-8c28-4cde095ef26c.jpg)
 
 
-## Steps
+## 🎬 Steps
 1. Search datasets from Kaggle
 2. Explore the dataset from the original dataset
 3. Download Library and dataset
@@ -10,7 +10,7 @@
 5. Cleaning Dataset
 6. Define a question
 
-## Tools
+## 🎬 Tools
 - R Language 
 - R Studio Desktop 
 
