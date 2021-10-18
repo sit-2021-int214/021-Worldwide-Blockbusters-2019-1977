@@ -53,7 +53,7 @@ What we want to know :
 ## Table of Contents
 
 1. [Exploratory Data Analysis]()
-2. [Data Cleaning and Data Transformation]()
+2. [Data Cleaning and Data Transformation](ข้อมูลอยู่ใน 1. ลิ้งไปลิ้งเดียวกะ 1.)
 3. [Data Visualization](final)
 
 ## Resources
@@ -61,7 +61,6 @@ What we want to know :
 ### Important Files in Repository
 
 - [Blockbusters_2019-1977.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
-//example
 - [blockbusters_clean](./clean-data.csv) : Data Cleaning and Data Transformation
 
 
