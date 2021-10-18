@@ -1,4 +1,5 @@
 # Exploratory Data Analysis
+![Movie-and-popcorn](https://user-images.githubusercontent.com/68915844/137787052-8a0fc3bd-5177-4402-bc33-676cd9f2f7cb.png)
 
 ## Steps
 1. Search datasets from Kaggle
