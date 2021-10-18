@@ -14,13 +14,13 @@
 - R Language 
 - R Studio Desktop 
 
-## 📽 Step 1 : Search datasets from Kaggle
+## Step 1 : Search datasets from Kaggle
 
 `เนื่องจากสมาชิกในกลุ่มมีความสนใจเกี่ยวกับภาพยนตร์เป็นอย่างยิ่ง จึงอยากทราบข้อมูลเชิงลึก บลา ๆ`
 
 Dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
 
-## 📽 Step 2 : Explore the dataset from the original dataset
+## Step 2 : Explore the dataset from the original dataset
  The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 highest grossing films worldwide between the years 2019 and 1977. [Cilck here](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) for more information about this dataset.
  
  
@@ -42,7 +42,7 @@ Dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
  12. genre_2	 ประเภทของภาพยนต์ ประเภทที่ 2
  13. genre_3  ประเภทของภาพยนต์ ประเภทที่ 3
 
-## 📽 Step 3 : Loading library and dataset
+## Step 3 : Loading library and dataset
 ```
 # Install packages
    install.packages("dplyr")
@@ -66,18 +66,18 @@ View(blockbusters)
 
 ```
 
-## 📽 Step 4 : Exploratory Data Analysis
+## Step 4 : Exploratory Data Analysis
 `อธิบายข้อมูลเรา มีไรบ้าง บลา ๆ`
 
   
-## 📽 Step 5 : Transformation
+## Step 5 : Transformation
 ```
 ##Mutate add new variables 
    blockbusters <- blockbusters %>% mutate(earn = worldwide_gross - film_budget)
    
 ```   
 
-## 📽 Step 6 : Cleaning Dataset
+## Step 6 : Cleaning Dataset
 ```
 # Cleaning Data
 ## Replace the NA values to NULL
@@ -90,7 +90,7 @@ View(blockbusters)
 
 ```
 
-## 📽 Step 7 : Define a question
+## Step 7 : Define a question
 1. หนังเรื่องไหนทำรายได้มากที่สุด (รายได้ - ต้นทุน)
 2. ค่ายไหนทำรายได้ได้มากที่สุดของปีนั้น ๆ
 3. ในปี 2019 joker อยู่ลำดับที่เท่าไหร่ แล้วทำรายได่เท่าไหร่
