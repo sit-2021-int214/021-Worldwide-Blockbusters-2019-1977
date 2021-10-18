@@ -83,6 +83,9 @@ View(blockbusters)
 ### 1.
 
 #### code
+blockbusters %>%
+    filter(film_profit == max(film_profit))%>%
+    select(film_title,film_profit) 
 ```
 
 ```
