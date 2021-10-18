@@ -27,6 +27,7 @@ Dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
 1. release_year	ปีที่ฉายภาพยนต์
 2. rank_in_year อันดับของภาพยนต์ที่ได้ ในปีนั้น
 3. imdb_rating คะแนน IMDb ที่ภาพยนต์ได้รับ 
+   
    (IMDb คือ เว็บไซต์ฐานข้อมูลเกี่ยวกับภาพยนตร์ทั่วโลก ตั้งแต่นักแสดง ผู้กำลัง และอื่นๆ อีกมากมาย ชื่อเต็มคือ The Internet Movie Database )
 4. mpaa_rating Motion Picture Association of America หรือ MPAA คือการจำแนกประเภทภาพยนต์
 5. film_title ชื่อภาพยนต์
