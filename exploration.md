@@ -90,12 +90,14 @@ blockbusters %>%
 ```
 #### result
 ```
-
+     film_title       film_profit
+        <chr>            <dbl>
+       1 Avatar        2507336793
 ```
 
 #### sum up
 ```
-
+หนังที่ทำรายได้มากที่สุดคือ Avatar มีรายได้ถึง 2507336793
 ```
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -103,64 +105,88 @@ blockbusters %>%
 
 #### code
 ```
-
+blockbusters %>% select(domestic_distributor, worldwide_gross) %>% 
+    filter(worldwide_gross == max(worldwide_gross))
 ```
 #### result
 ```
-
+ domestic_distributor         worldwide_gross
+        <chr>                      <dbl>
+     1 Walt Disney               2797800564
 ```
 
 #### sum up
 ```
-
+ค่ายที่ทำรายได้มากที่สุดของปีคือ Walt Disney มีรายได้ถึง 2797800564
 ```
 -----------------------------------------------------------------------------------------------------------------------
 ### 3.
 
 #### code
 ```
-
+blockbusters %>%
+    select(release_year,film_title,rank_in_year, film_profit) %>% 
+    filter(blockbusters$film_title=='Joker'
 ```
 #### result
 ```
-
+release_year   film_title   rank_in_year   film_profit
+     <dbl>       <chr>         <dbl>          <dbl>
+       1       2019 Joker        7         1016030470
 ```
 
 #### sum up
 ```
-
+ในปี 2019 Joker อยู่ลำดับที่ 7 มีรายได้ 1016030470
 ```
 -----------------------------------------------------------------------------------------------------------------------
 ### 4.
 
 #### code
 ```
-
+blockbusters %>%
+    filter(film_budget == max(film_budget)) %>%
+    select(film_title)
 ```
 #### result
 ```
-
+    film_title       
+      <chr>            
+1 Avengers: Endgame
 ```
 
 #### sum up
 ```
-
+แนวหนังที่มี Budget เยอะที่สุดตือ Avengers: Endgame
 ```
 -----------------------------------------------------------------------------------------------------------------------
 ### 5.
 
 #### code
 ```
-
+blockbusters %>% count(genre_1)
 ```
 #### result
 ```
-
+        genre_1          n
+        <chr>         <int>
+        1 Action       194
+        2 Adventure     46
+        3 Animation     55
+        4 Biography      7
+        5 Comedy        69
+        6 Crime         11
+        7 Drama         37
+        8 Family         3
+        9 Horror         5
+        10 Musical       1
+        11 Mystery       1
+        12 Sci-Fi        1
 ```
 
 #### sum up
 ```
-
+แนวหนังยอดฮิตคือแนวหนัง Action
 ```
 -----------------------------------------------------------------------------------------------------------------------
 ### 6.
@@ -215,16 +241,20 @@ blockbusters %>%
 
 #### code
 ```
-
+blockbusters %>%
+    count(mpaa_rating) %>%
+    filter(mpaa_rating == "R")
 ```
 #### result
 ```
-
+        mpaa_rating     n
+          <chr>       <int>
+           1 R          95
 ```
 
 #### sum up
 ```
-
+หนังเรท R มีทั้งหมด 95 เรื่อง
 ```
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -232,15 +262,38 @@ blockbusters %>%
 
 #### code
 ```
-
+blockbusters %>% group_by(release_year) %>% count(mpaa_rating)
 ```
 #### result
 ```
-
+    release_year   mpaa_rating            n
+       <dbl>          <chr>             <int>
+        1            1977 PG              8
+        2            1977 R               2
+        3            1978 PG              6
+        4            1978 PG-13           1
+        5            1978 R               3
+        6            1979 G               1
+        7            1979 PG              4
+        8            1979 R               5
+        9            1980 PG              6
+        10           1980 R               4
 ```
 
 #### sum up
 ```
-
+#mpaa_rating ยอดฮิตในแต่ละปี
+release_year   mpaa_rating            n
+       <dbl>          <chr>             <int>
+        1            1977 PG              8
+        2            1977 R               2
+        3            1978 PG              6
+        4            1978 PG-13           1
+        5            1978 R               3
+        6            1979 G               1
+        7            1979 PG              4
+        8            1979 R               5
+        9            1980 PG              6
+        10           1980 R               4
 ```
 -----------------------------------------------------------------------------------------------------------------------
