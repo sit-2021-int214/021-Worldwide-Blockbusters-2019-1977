@@ -59,10 +59,9 @@ What we want to know :
 ## Resources
 
 ### Important Files in Repository
-
-- [Blockbusters_2019-1977.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
-- [blockbusters_clean](./clean-data.csv) : Data Cleaning and Data Transformation
-
+- [blockbusters_original.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
+- [blockbusters_clean.csv](./clean-data.csv) : Data Cleaning and Data Transformation
+- [blockbusters_analysis.R]() : Exploratory Data Analysis
 
 
 ### References
