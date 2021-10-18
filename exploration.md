@@ -8,6 +8,9 @@
 5. Cleaning Dataset
 6. Define a question
 
+## Tools
+R Language
+R Studio Desktop
 
 ## Step 1 : Search datasets from Kaggle
 
