@@ -67,6 +67,29 @@ View(blockbusters)
 
 ## Step 4 : Exploratory Data Analysis
 `อธิบายข้อมูลเรา มีไรบ้าง บลา ๆ`
+เช็คข้อมูลด้วย
+
+is.character()
+is.numeric()
+is.logical()
+is.factor()
+is.Date()
+
+  1. release_year	 ปีที่ฉายภาพยนต์ ข้อมูลเป็น numberic 
+  2. rank_in_year  อันดับของภาพยนต์ที่ได้ ในปีนั้น ข้อมูลเป็น numberic 
+  3. imdb_rating   คะแนน IMDb ที่ภาพยนต์ได้รับ ข้อมูลเป็น numberic 
+   (IMDb คือ เว็บไซต์ฐานข้อมูลเกี่ยวกับภาพยนตร์ทั่วโลก ตั้งแต่นักแสดง ผู้กำลัง และอื่นๆ อีกมากมาย ชื่อเต็มคือ The Internet Movie Database ) ข้อมูลเป็น numberic 
+  4. mpaa_rating Motion Picture Association of America หรือ MPAA คือการจำแนกประเภทภาพยนต์ ข้อมูลเป็น character แทนที่เป็นค่า NA เป็นคำว่า NULL
+  5. film_title     ชื่อภาพยนต์ ข้อมูลเป็น character
+  6. film_budget	   จำนวนเงินลงทุน ข้อมูลเป็น numberic 
+  7. length_in_min  ความยาวของภาพยนต์ (หน่วยเป็น นาที) ข้อมูลเป็น numberic 
+  8. domestic_distributor   ค่ายหนังของภาพยนต์ ข้อมูลเป็น character
+  9. worldwide_gross	  รายได้รวมทั่วโลกของภาพยนต์นั้นๆ ข้อมูลเป็น numberic 
+ 10. domestic_gross	  รายได้รวมในประเทศ ข้อมูลเป็น numberic 
+ 11. genre_1	 ประเภทของภาพยนต์ ประเภทที่ 1 ข้อมูลเป็น character
+ 12. genre_2	 ประเภทของภาพยนต์ ประเภทที่ 2 ข้อมูลเป็น character แทนที่เป็นค่า NA เป็นคำว่า NULL 
+ 13. genre_3  ประเภทของภาพยนต์ ประเภทที่ 3 ข้อมูลเป็น character แทนที่เป็นค่า NA เป็นคำว่า NULL 
+ 14. film_budget กำไร (รายได้-ต้นทุน) ข้อมูลเป็น numberic เป็นการสร้างเพิ่มเพื่อต้องการทราบกำไรของหนังแต่ละเรื่อง
 
   
 ## Step 5 : Transformation
