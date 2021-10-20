@@ -80,4 +80,4 @@ is.factor()
 is.Date()
 ```
 ---
-## Next to step 5 and 6 : Data cleaning and transformation [Click Here!](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/transformation&clean.md)
+Next to step 5 and 6 : Data cleaning and transformation [Click Here!](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/transformation&clean.md)
