@@ -14,13 +14,6 @@
 6. Cleaning Dataset
 7. Define a question
 
-### Data analysis steps
-1. Search datasets from Kaggle
-2. Explore the dataset from the original dataset
-3. Download Library and dataset
-4. Exploratory Data Analysis
-
-
 ## Step 1 : Search datasets from Kaggle
 เนื่องจากสมาชิกในกลุ่มมีความสนใจเกี่ยวกับภาพยนตร์เป็นอย่างยิ่ง จึงอยากทราบข้อมูลเชิงลึก เช่น เงินทุน, รายได้, rating และอื่น ๆ ทางคณะผู้จัดทำจึงคิดว่าการนำข้อมูลชุดนี้มาวิเคราะห์เป็นสิ่งที่น่าสนใจเพราะทำให้ได้รู้ความสำเร็จในการสร้างภาพยนตร์ของแต่ละเรื่อง อีกทั้งยังสามารถให้บุคคลที่สนใจในเรื่องภาพยนตร์ได้เลือกดูภาพยนตร์ได้ตามต้องการจากที่ทางคณะผู้จัดทำได้รวบรวมข้อมูลไว้
 
