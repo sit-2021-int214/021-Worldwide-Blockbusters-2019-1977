@@ -17,15 +17,15 @@ The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 
 
 What we want to know :
 
-1. หนังเรื่องไหนทำรายได้มากที่สุด
-2. ค่ายไหนทำรายได้ได้มากที่สุดของปีนั้น ๆ
-3. ในปี 2019 joker อยู่ลำดับที่เท่าไหร่ แล้วทำรายได่เท่าไหร่
-4. หนังเรื่องไหนมี budget สูงที่สุด
-5. แนวหนังยอดฮิต
-6. หนังเรท R มีกี่เรื่อง
-7. mpaa_rating ยอดฮิตในแต่ละปี
-8. imdb_rating ที่สูงที่สุดคือเรื่องอะไร แล้วเรทเท่าไหร่
-9. หนังเรื่องไหนฉายแค่ในประเทศเท่านั้น
+1. ภาพยนตร์เรื่องใดทำรายได้มากที่สุด
+2. ค่ายภาพยนตร์ใดทำรายได้ได้มากที่สุด
+3. ภาพยนตร์ joker ติดลำดับในปีอะไร ลำดับที่เท่าไร และทำรายได้ได้เท่าใร
+4. ภาพยนตร์เรื่องใดมี budget สูงที่สุด
+5. ภาพยนตร์ยอดฮิตคือประเภทใด
+6. ภาพยนตร์เรท R มีทั้งหมดกี่เรื่อง
+7. mpaa_rating ยอดฮิตในแต่ละปีคือเรทอะไร
+8. imdb_rating ที่สูงที่สุดคือภาพยนตร์เรื่องใด และเรทเท่าใด
+9. ภาพยนตร์เรื่องใดฉายแค่ในประเทศเท่านั้น
 
 
 ### Steps
@@ -48,15 +48,18 @@ What we want to know :
 ## Table of Contents
 
 1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step1-4_data_analysis.md) : Step 1-4
-- Search datasets from Kaggle
-- Explore the dataset from the original dataset
-- Download Library and dataset
-- Exploratory Data Analysis
+   - Search datasets from Kaggle
+   - Explore the dataset from the original dataset
+   - Download Library and dataset
+   - Exploratory Data Analysis
+  
 2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step5-6_transformation&cleaning.md) : Step 5-6
-- Data Transformation
-- Cleaning Dataset
+   - Data Transformation
+   - Cleaning Dataset
+
 3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step7_define_question.md) : Step 7
-- Define a questions
+   - Define a questions
+ 
 4. [Data Visualization] `final`
 
 ## Resources
