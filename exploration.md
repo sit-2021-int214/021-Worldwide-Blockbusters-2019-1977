@@ -41,10 +41,10 @@ The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 
    library(readr)
 
 # Import the dataset
-blockbusters <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/main/Blockbusters_2019-1977.csv")
+   blockbusters <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/main/Blockbusters_2019-1977.csv")
 
 # View dataset
-View(blockbusters)
+   View(blockbusters)
 
 ```
 
