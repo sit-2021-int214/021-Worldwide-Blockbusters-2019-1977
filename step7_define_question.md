@@ -1,4 +1,5 @@
 # Define a questions
+[blockbusters_analysis.R](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_analysis.R) : Data analysis R file
 ## Step 7 : Define a questions
 1. ภาพยนตร์เรื่องใดทำรายได้มากที่สุด
 2. ค่ายภาพยนตร์ใดทำรายได้ได้มากที่สุด
