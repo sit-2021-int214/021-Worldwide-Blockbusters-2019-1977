@@ -20,7 +20,7 @@
 Original dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
 
 ## Step 2 : Explore the dataset from the original dataset
-The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 highest grossing films worldwide between the years 2019 and 1977. The data in the database contains the following release year, rank in year, IMDb rating, MPAA rating, title, budget, length, distributor, worldwide gross, domestic gross and genre. [Cilck here](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) for more information about this dataset.
+The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 highest grossing films worldwide between the years 2019 and 1977. The data in the database contains the following release year, rank in year, IMDb rating, MPAA rating, title, budget, length, distributor, worldwide gross, domestic gross and genre. [Cilck here](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_original.csv) for more information about this dataset.
 
 
 ## Step 3 : Loading library and dataset
