@@ -19,5 +19,5 @@
 
 ```
 ---
-### Next to step 7 : Define a questions [Click Here!](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Step%207%20:%20definequestion.md)
+### Next to step 7 : Define a questions [Click Here!](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Step7_define_question.md)
 
