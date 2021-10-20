@@ -25,7 +25,7 @@ Dataset from : https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977
  
 #### ใน dataset นี้ ประกอบไปด้วย 
 
-  1. release_year	 ปีที่ฉายภาพยนต์
+  1. release_year	 ปีที่ฉายภาพยนตร์
   2. rank_in_year  อันดับของภาพยนต์ที่ได้ ในปีนั้น
   3. imdb_rating   คะแนน IMDb ที่ภาพยนต์ได้รับ 
    (IMDb คือ เว็บไซต์ฐานข้อมูลเกี่ยวกับภาพยนตร์ทั่วโลก ตั้งแต่นักแสดง ผู้กำลัง และอื่นๆ อีกมากมาย ชื่อเต็มคือ The Internet Movie Database )
@@ -75,7 +75,7 @@ is.logical()
 is.factor()
 is.Date()
 
-  1. release_year	 ปีที่ฉายภาพยนต์ ข้อมูลเป็น numberic 
+  1. release_year	 ปีที่ฉายภาพยนตร์ ข้อมูลเป็น numberic 
   2. rank_in_year  อันดับของภาพยนต์ที่ได้ ในปีนั้น ข้อมูลเป็น numberic 
   3. imdb_rating   คะแนน IMDb ที่ภาพยนต์ได้รับ ข้อมูลเป็น numberic 
    (IMDb คือ เว็บไซต์ฐานข้อมูลเกี่ยวกับภาพยนตร์ทั่วโลก ตั้งแต่นักแสดง ผู้กำลัง และอื่นๆ อีกมากมาย ชื่อเต็มคือ The Internet Movie Database ) ข้อมูลเป็น numberic 
