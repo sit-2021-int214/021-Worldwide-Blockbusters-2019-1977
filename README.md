@@ -1,4 +1,5 @@
 # Group 21 - Worldwide Blockbusters 2019-1977
+![fall-movies-index-1628968089](https://user-images.githubusercontent.com/68915844/137787092-f32bf8ce-2923-4007-8c28-4cde095ef26c.jpg)
 
 Original dataset from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
 
