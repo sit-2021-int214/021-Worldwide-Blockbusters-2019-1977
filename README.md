@@ -34,9 +34,9 @@ What we want to know :
 2. Explore the dataset from the original dataset
 3. Download Library and dataset
 4. Exploratory Data Analysis
-5. Transformation
+5. Data Transformation
 6. Cleaning Dataset
-7. Define a question
+7. Define a questions
 
  
 ### Tools
@@ -47,9 +47,9 @@ What we want to know :
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/exploration.md)
-2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/transformation&clean.md)
-3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/definequestion.md)
+1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/exploration.md) : Step 1-4
+2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/transformation&clean.md) : Step 5-6
+3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/definequestion.md) : Step 7
 4. [Data Visualization]`final`
 
 ## Resources
@@ -61,8 +61,7 @@ What we want to know :
 
 
 ### References
-
-// Link
+[Worldwide Blockbusters 2019-1977 Dataset](https://www.kaggle.com/narmelan/top-ten-blockbusters-20191977)
 
 ## About Us
 
