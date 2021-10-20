@@ -48,10 +48,10 @@ What we want to know :
 ## Table of Contents
 
 1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/data_analysis.md) : Step 1-4
-  - Search datasets from Kaggle
-  - Explore the dataset from the original dataset
-  - Download Library and dataset
-  - Exploratory Data Analysis
+- Search datasets from Kaggle
+- Explore the dataset from the original dataset
+- Download Library and dataset
+- Exploratory Data Analysis
 2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/transformation&clean.md) : Step 5-6
 - Data Transformation
 - Cleaning Dataset
