@@ -20,9 +20,9 @@ blockbusters %>%
 ```
 #### result
 ```
-     film_title       film_profit
-        <chr>            <dbl>
-    1   Avatar        2507336793
+ film_title       film_profit
+    <chr>            <dbl>
+1   Avatar        2507336793
 ```
 
 #### summary
@@ -97,20 +97,20 @@ blockbusters %>% count(genre_1)
 ```
 #### result
 ```
-        genre_1         n
-        <chr>         <int>
-       1 Action       194
-       2 Adventure     46
-       3 Animation     55
-       4 Biography      7
-       5 Comedy        69
-       6 Crime         11
-       7 Drama         37
-       8 Family         3
-       9 Horror         5
-       10 Musical       1
-       11 Mystery       1
-       12 Sci-Fi        1
+  genre_1         n
+  <chr>         <int>
+1  Action       194
+2  Adventure     46
+3  Animation     55
+4  Biography      7
+5  Comedy        69
+6  Crime         11
+7  Drama         37
+8  Family         3
+9  Horror         5
+10 Musical        1
+11 Mystery        1
+12 Sci-Fi         1
 ```
 
 #### summary
@@ -128,9 +128,9 @@ blockbusters %>%
 ```
 #### result
 ```
-   mpaa_rating     n
-     <chr>       <int>
-   1   R          95
+mpaa_rating     n
+ <chr>       <int>
+1   R          95
 ```
 
 #### summary
@@ -146,31 +146,31 @@ blockbusters %>% group_by(release_year) %>% count(mpaa_rating)
 ```
 #### result
 ```
-    release_year   mpaa_rating            n
-       <dbl>          <chr>             <int>
-    1  1977            PG                 8
-    2  1977            R                  2
-    3  1978            PG                 6
-    4  1978            PG-13              1
-    5  1978            R                  3
-    6  1979            G                  1
-    7  1979            PG                 4
-    8  1979            R                  5
-    9  1980            PG                 6
-    10 1980            R                  4
-    # … with 117 more rows
+release_year   mpaa_rating            n
+   <dbl>          <chr>             <int>
+1  1977            PG                 8
+2  1977            R                  2
+3  1978            PG                 6
+4  1978            PG-13              1
+5  1978            R                  3
+6  1979            G                  1
+7  1979            PG                 4
+8  1979            R                  5
+9  1980            PG                 6
+10 1980            R                  4
+# … with 117 more rows
 ```
 
 #### summary
 ```
 #mpaa_rating ยอดฮิตในแต่ละปี ได้แก่
-    release_year   mpaa_rating            n
-       <dbl>          <chr>             <int>
-    1  1977            PG                 8
-    3  1978            PG                 6
-    8  1979            R                  5
-    9  1980            PG                 6
-    # … with 117 more rows
+release_year   mpaa_rating            n
+   <dbl>          <chr>             <int>
+1  1977            PG                 8
+3  1978            PG                 6
+8  1979            R                  5
+9  1980            PG                 6
+# … with 117 more rows
 ```
 -----------------------------------------------------------------------------------------------------------------------
 ## 8. imdb_rating ที่สูงที่สุดคือภาพยนตร์เรื่องใด และเรทเท่าใด
@@ -181,9 +181,9 @@ blockbusters %>% filter(imdb_rating == max(imdb_rating)) %>% select(film_title, 
 ```
 #### result
 ```
-     film_title        imdb_rating
-        <chr>             <dbl>
-   1 The Dark Knight        9
+ film_title        imdb_rating
+    <chr>             <dbl>
+1 The Dark Knight        9
 ```
 
 #### summary
@@ -201,35 +201,35 @@ blockbusters %>%
 ```
 #### result
 ```
-         film_title               
-         <chr>                    
-        1 Three Men and a Baby     
-        2 Good Morning, Vietnam    
-        3 Moonstruck               
-        4 The Untouchables         
-        5 The Karate Kid Part II   
-        6 Star Trek IV: Voyage Home
-        7 Back to School           
-        8 The Golden Child         
-        9 The Color Purple         
-        10 Witness                  
-        with 57 more rows
+    film_title               
+       <chr>                    
+1  Three Men and a Baby     
+2  Good Morning, Vietnam    
+3  Moonstruck               
+4  The Untouchables         
+5  The Karate Kid Part II   
+6  Star Trek IV: Voyage Home
+7  Back to School           
+8  The Golden Child         
+9  The Color Purple         
+10 Witness                  
+with 57 more rows
 ```
 
 #### summary
 ```
 ภาพยนตร์ที่ฉายแค่ในประเทศเท่านั้น มีทั้งหมด 67 เรื่อง ได้แก่
-        1 Three Men and a Baby     
-        2 Good Morning, Vietnam    
-        3 Moonstruck               
-        4 The Untouchables         
-        5 The Karate Kid Part II   
-        6 Star Trek IV: Voyage Home
-        7 Back to School           
-        8 The Golden Child         
-        9 The Color Purple         
-        10 Witness                  
-        with 57 more rows
+1  Three Men and a Baby     
+2  Good Morning, Vietnam    
+3  Moonstruck               
+4  The Untouchables         
+5  The Karate Kid Part II   
+6  Star Trek IV: Voyage Home
+7  Back to School           
+8  The Golden Child         
+9  The Color Purple         
+10 Witness                  
+with 57 more rows
         
 เนื่องจากมี worldwide_gross เท่ากับ domestic_gross
 ```
