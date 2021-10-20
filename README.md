@@ -57,12 +57,12 @@ What we want to know :
 - Cleaning Dataset
 3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step7_define_question.md) : Step 7
 - Define a questions
-4. [Data Visualization]`final`
+4. [Data Visualization] `final`
 
 ## Resources
 
 ### Important Files in Repository
-- [blockbusters_original.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
+- [blockbusters_original.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_original.csv) : Original Dataset
 - [blockbusters_clean.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_clean.csv) : Data Cleaning and Data Transformation
 - [blockbusters_analysis.R](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_analysis.R) : Exploratory Data Analysis
 
