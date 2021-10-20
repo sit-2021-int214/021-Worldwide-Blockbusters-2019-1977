@@ -10,36 +10,33 @@ The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 
 
 ## Overview
 
-เนื่องจากสมาชิกในกลุ่มมีความสนใจเกี่ยวกับภาพยนตร์เป็นอย่างยิ่ง จึงอยากทราบข้อมูลเชิงลึก เช่น เงินทุน, รายได้, rating และอื่น ๆ ทางคณะผู้จัดทำจึงคิดว่าการนำข้อมูลชุดนี้มาวิเคราะห์เป็นสิ่งที่น่าสนใจเพราะทำให้ได้รู้ความสำเร็จในการสร้างภาพยนต์ของแต่ละเรื่อง อีกทั้งยังสามารถให้บุคคลที่สนใจในเรื่องภาพยนต์ได้เลือกดูภาพยนต์ได้ตามต้องการจากที่ทางคณะผู้จัดทำได้รวบรวมข้อมูลไว้
+เนื่องจากสมาชิกในกลุ่มมีความสนใจเกี่ยวกับภาพยนตร์เป็นอย่างยิ่ง จึงอยากทราบข้อมูลเชิงลึก เช่น เงินทุน, รายได้, rating และอื่น ๆ ทางคณะผู้จัดทำจึงคิดว่าการนำข้อมูลชุดนี้มาวิเคราะห์เป็นสิ่งที่น่าสนใจเพราะทำให้ได้รู้ความสำเร็จในการสร้างภาพยนต์ของแต่ละเรื่อง อีกทั้งยังสามารถให้บุคคลที่สนใจในเรื่องภาพยนต์ได้เลือกดูภาพยนตร์ได้ตามต้องการจากที่ทางคณะผู้จัดทำได้รวบรวมข้อมูลไว้
 
 
 ### Objects
 
 What we want to know :
 
-1. หนังเรื่องไหนทำรายได้มากที่สุด (รายได้ - ต้นทุน)
+1. หนังเรื่องไหนทำรายได้มากที่สุด
 2. ค่ายไหนทำรายได้ได้มากที่สุดของปีนั้น ๆ
 3. ในปี 2019 joker อยู่ลำดับที่เท่าไหร่ แล้วทำรายได่เท่าไหร่
 4. หนังเรื่องไหนมี budget สูงที่สุด
 5. แนวหนังยอดฮิต
-6. หนังอันดับ 1 ของทุกปี มีรายได้รวมเท่าไหร่
-7. หนังที่มีความยาวมากที่สุดคือเรื่องอะไรแล้วมีความยาวเท่าไหร่
-8. ค่ายไหนติดอันดับบ่อยที่สุด
-9. หนังเรท R มีกี่เรื่อง
-10. mpaa_rating ยอดฮิตในแต่ละปี
-11. imdb_rating ที่สูงที่สุดคือเรื่องอะไร แล้วเรทเท่าไหร่
-12. หนังเรื่องไหนฉายแค่ในประเทศเท่านั้น (worldwide = domestic)
-13. imdb_rating ที่สูงสุดในแต่ละปี คือเท่าไหร่ และเรื่องอ
+6. หนังเรท R มีกี่เรื่อง
+7. mpaa_rating ยอดฮิตในแต่ละปี
+8. imdb_rating ที่สูงที่สุดคือเรื่องอะไร แล้วเรทเท่าไหร่
+9. หนังเรื่องไหนฉายแค่ในประเทศเท่านั้น
 
 
 ### Steps
 
-1. Define a question
-2. Search datasets from Kaggle
+1. Search datasets from Kaggle
+2. Explore the dataset from the original dataset
 3. Download Library and dataset
-4. Explore the dataset from the original dataset
-5. Cleaning Dataset
-6. Exploratory Data Analysis
+4. Exploratory Data Analysis
+5. Transformation
+6. Cleaning Dataset
+7. Define a question
 
  
 ### Tools
@@ -58,7 +55,7 @@ What we want to know :
 
 ### Important Files in Repository
 - [blockbusters_original.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
-- [blockbusters_clean.csv](./clean-data.csv) : Data Cleaning and Data Transformation
+- [blockbusters_clean.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_clean.csv) : Data Cleaning and Data Transformation
 - [blockbusters_analysis.R]() : Exploratory Data Analysis
 
 
