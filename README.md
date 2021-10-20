@@ -5,7 +5,7 @@ Original dataset from : [Worldwide Blockbusters 2019-1977](https://www.kaggle.co
 
 ### About's Worldwide Blockbusters 2019-1977
 
-The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 highest grossing films worldwide between the years 2019 and 1977. [Cilck here](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) for more information about this dataset.
+The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 highest grossing films worldwide between the years 2019 and 1977. [Cilck here](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_original.csv) for more information about this dataset.
 
 
 ## Overview
@@ -47,15 +47,15 @@ What we want to know :
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/data_analysis.md) : Step 1-4
+1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step1-4_data_analysis.md) : Step 1-4
 - Search datasets from Kaggle
 - Explore the dataset from the original dataset
 - Download Library and dataset
 - Exploratory Data Analysis
-2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/transformation&clean.md) : Step 5-6
+2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step5-6_transformation&cleaning.md) : Step 5-6
 - Data Transformation
 - Cleaning Dataset
-3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/definequestion.md) : Step 7
+3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step7_define_question.md) : Step 7
 - Define a questions
 4. [Data Visualization]`final`
 
@@ -64,7 +64,7 @@ What we want to know :
 ### Important Files in Repository
 - [blockbusters_original.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/Blockbusters_2019-1977.csv) : Original Dataset
 - [blockbusters_clean.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_clean.csv) : Data Cleaning and Data Transformation
-- [blockbusters_analysis.R]() : Exploratory Data Analysis
+- [blockbusters_analysis.R](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_analysis.R) : Exploratory Data Analysis
 
 
 ### References
