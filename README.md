@@ -47,7 +47,7 @@ What we want to know :
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/exploration.md) : Step 1-4
+1. [Exploratory Data Analysis](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/data_analysis.md) : Step 1-4
 2. [Data Cleaning and Data Transformation](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/transformation&clean.md) : Step 5-6
 3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/definequestion.md) : Step 7
 4. [Data Visualization]`final`
