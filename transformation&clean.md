@@ -1,10 +1,10 @@
-## Transformation
+## Step 5 : Transformation
 ```
 ## Mutate for add new variables
    blockbusters <- blockbusters %>% mutate(file_profit = worldwide_gross - film_budget)
 ```   
 
-## Cleaning Dataset
+## Step 6 : Cleaning Dataset
 ```
 # Cleaning Data
 ## Replace the NA values to NULL
