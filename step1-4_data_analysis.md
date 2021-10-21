@@ -51,6 +51,7 @@ The Worldwide Blockbusters 2019-1977 dataset provides information on the top 10 
   1. release_year	: ปีที่ฉายภาพยนตร์ ข้อมูลเป็น numberic 
   2. rank_in_year : อันดับของภาพยนตร์ที่ได้ ในปีนั้น ข้อมูลเป็น numberic 
   3. imdb_rating : คะแนน IMDb ที่ภาพยนตร์ได้รับ ข้อมูลเป็น numberic 
+   
    (IMDb คือ เว็บไซต์ฐานข้อมูลเกี่ยวกับภาพยนตร์ทั่วโลก ตั้งแต่นักแสดง ผู้กำกับ และอื่น ๆ อีกมากมาย ชื่อเต็มคือ The Internet Movie Database) ข้อมูลเป็น numberic 
   4. mpaa_rating : Motion Picture Association of America หรือ MPAA คือการจำแนกประเภทภาพยนตร์ ข้อมูลเป็น character (แทนที่ค่า NA เป็นคำว่า NULL)
   5. film_title : ชื่อภาพยนตร์ ข้อมูลเป็น character
