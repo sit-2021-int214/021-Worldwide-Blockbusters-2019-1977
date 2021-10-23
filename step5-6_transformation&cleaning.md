@@ -8,6 +8,10 @@
 ```   
 
 ## Step 6 : Cleaning Dataset
+
+จาก Original dataset จะมีข้อมูลที่เป็นค่า NA ใน Column ของ mpaa_rating, genre2 และ gern3 ซึ่งจะส่งผลให้การสรุปข้อมูลเป็น NA ได้ 
+จึงได้ทำการแทนที่ค่า NA ด้วยคำว่า NULL เพื่อให้การแสดงผลของข้อมูลที่เป็น NA ไม่ส่งผลกระทบต่อข้อมูลที่เหลือ โดยจะใช้คำสั่ง ดังนี้
+
 ```
 # Cleaning Data
 ## Replace the NA values to NULL
@@ -17,12 +21,6 @@
 
 ## View dataset
    View(blockbusters) 
-
-```
-
-```
-จาก Dataset มีข้อมูลที่เป็นค่า NA ใน Column ของ mpaa_rating, genre2 และ gern3 ซึ่งจะส่งผลให้การสรุปข้อมูลเป็น NA ได้ 
-จึงได้ทำการแทนที่ค่า NA ด้วยคำว่า NULL เพื่อให้การแสดงผลของข้อมูลที่เป็น NA ไม่ส่งผลกระทบต่อข้อมูลที่เหลือ โดยจะแสดงออกมาเป็นคำว่า NULL
 ```
 ---
 ### Next to step 7 : Define a questions [Click Here!](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step7_define_question.md)
