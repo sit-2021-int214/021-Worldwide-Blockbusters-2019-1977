@@ -2,6 +2,7 @@
 [blockbusters_clean.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_clean.csv) : Cleaning dataset
 
 ## Step 5 : Transformation
+เป็นการปรับปรุง dataset โดยจะสร้าง column ใหม่ คือ film_profit เพื่อบอกผลกำไรของภาพยนตร์นั้น โดยหาได้จากรายได้รวมลบกับเงินลงทุน (worldwide_gross - film_budget) เพื่อให้สะดวกต่อการเรียกดูข้อมูล โดยจะใช้คำสั่ง ดังนี้
 ```
 ## Mutate for add new variables
    blockbusters <- blockbusters %>% mutate(file_profit = worldwide_gross - film_budget)
