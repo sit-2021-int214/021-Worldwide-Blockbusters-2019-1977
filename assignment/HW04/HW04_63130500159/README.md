@@ -7,7 +7,7 @@ Created by Supapit Rattanataveesophon (ID : 63130500159)
 
 
 ### Outlines
-1. [Explore the dataset]()
+1. [Explore the dataset](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/assignment/HW04/HW04_63130500159/explore_dataset.md)
 2. [Learning function from Tidyverse]()
 3. [Finding insight the data]()
 4. [Visualization with GGplot2]()
