@@ -23,6 +23,15 @@
 <img src="pie.png" width=700>
 </p>
 
+**Explain :**
+Two of graphs show the number of books for each types as follows
+- Boxed Set - Hardcover has 1 book. 
+- ebook has 7 books. 
+- Hardcover has 95 books. 
+- Kindle Edition has 19 books. 
+- Paperback has 156 books. 
+- Unknown Blinding has 2 books.
+
 ---
 
 ### 2. Graph shows relation between rating and reviews which rating has more than equal 4.2.
@@ -39,6 +48,9 @@
 <p align="center">
 <img src="scatter.png" width=700>
 </p>
+
+**Explain :**
+This graph shows relation between rating and reviews which rating has more than 4.2 points.
 
 ---
 
