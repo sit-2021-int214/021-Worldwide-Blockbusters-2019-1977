@@ -17,7 +17,7 @@ Result
 
 Explain 
 
- ● หาข้อมูลของ Rating และ Type
+ ● หาข้อมูลของ Rating และ Type เพื่อแสดงในผลลัพธ์
  
  ● นำมา Rating filter() เพื่อหา Rating ที่มากที่สุด
 
@@ -57,6 +57,13 @@ Result
 22 3D Game Engine Architecture: Engineering Real-Time Applications with Wild Magic (The Morgan Kaufmann Series in Interactive 3d Technology)
 ```
 
+
+Explain 
+
+ ● หาข้อมูลของ Book_title เพื่อแสดงในผลลัพธ์
+ 
+ ● นำมา Review มา filter() เพื่อหาหนังสือที่ไม่มีคนรีวิวหรือหมายถึงมีจำนวนคนรีวิว 0 คน
+ 
 ## 3. หนังสือที่ราคาถูกกว่าค่าเฉลี่ยและมีรูปแบบหนังสือคือ "ebook"
 
 Code
@@ -76,6 +83,15 @@ Result
 
 ```
 
+Explain 
+
+ ● หาข้อมูลของ Book_title เพื่อแสดงในผลลัพธ์
+ 
+ ● นำมา Price มา filter() และเทียบกับค่าเฉลี่ย mean() ของ Price
+ 
+ ● กำหนดรูปแบบของหนังสือเป็น ebook
+ 
+ 
 ## 4. แสดงชื่อหนังสือที่มีเรทติ้งต่ำกว่า 3.5 
 
 Code
@@ -101,6 +117,14 @@ Book_title
 11 3D Game Engine Design: A Practical Approach to Real-Time Computer Graphics (The Morgan Kaufmann Series in Interactive 3D Technology)
 ```
 
+
+Explain 
+
+ ● หาข้อมูลของ Book_title เพื่อแสดงในผลลัพธ์
+ 
+ ● นำมา Rating มา filter() และกำหนดให้มี Rating ที่น้อยกว่า 3.5
+ 
+ 
 ## 5. แสดงชื่อหนังสือและรูปแบบหนังสือที่มีคนรีวิวช่วงระหว่าง 1,000 ถึง 1,200 คน โดยเรียงจากมากไปน้อยของยอดฮิตหนังสือ
 
 Code
@@ -130,6 +154,15 @@ Result
 14                                                         The Rails Way Paperback   3.83
 ```
 
+Explain 
+
+ ● หาข้อมูลของ Book_title,Type และ Rating เพื่อแสดงในผลลัพธ์
+ 
+ ● นำมา Review มา filter() และกำหนดให้มี Review มีมากกว่า 1,000 รีวิว แต่น้อยกว่า 1,200
+ 
+ ● นำ Rating มาเรียงข้อมูลจากมากไปน้อยโดยการใช้ arrange(desc())
+ 
+ 
 ## 6. แสดงชื่อหนังสือและจำนวนหน้าที่เรทติ้งมากกว่าค่าเฉลี่ยและเป็นรูปแบบหนังสือของ "Kindle Edition" โดยเรียงจากจำนวนหน้าน้อยไปหามาก  
 
 Code
@@ -148,3 +181,13 @@ Result
 3 Make Your Own Neural Network: An In-depth Visual Introduction For Beginners             316
 4                    Simulation of Digital Communication Systems using Matlab
 ```
+
+Explain 
+
+ ● หาข้อมูลของ Book_title,Type และ Number_Of_Pages เพื่อแสดงในผลลัพธ์
+ 
+ ● นำ Rating มาเทียบกับค่าเฉลี่ย mean() ของ Rating ซึ่ง Rating ต้องน้อยกว่าค่าเฉลี่ย โดยใช้ filter()
+ 
+ ● นำ Number_Of_Pages มาเทียบกับค่าเฉลี่ย mean() ของ Number_Of_Pages ซึ่ง Number_Of_Pages ต้องน้อยกว่าค่าเฉลี่ย โดยใช้ filter()
+ 
+ ● นำ Rating มาเรียงข้อมูลจากน้อยไปมากโดยการใช้ arrange()
