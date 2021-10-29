@@ -2,6 +2,11 @@
 
 ## Step 1 : เรียกใช้ Library
 ```
+#install
+install.packages("dplyr")
+install.packages("readr")
+install.packages("ggplot2")
+
 #library
 library(dplyr)
 library(readr)
