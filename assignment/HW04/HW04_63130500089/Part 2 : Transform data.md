@@ -57,7 +57,7 @@ programming_book %>%
 ```
 programming_book %>%
   select(Book_title)%>%
-  filter(programming_book$Price < mean(programming_book$Price))
+  filter(programming_book$Price < mean(programming_book$Price), programming_book$Type == "ebook")
 ```
 
 ## Result
