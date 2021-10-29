@@ -34,7 +34,7 @@ Two of graphs show the number of books for each types as follows
 
 ---
 
-### 2. Graph shows relation between rating and reviews which rating has more than equal 4.2.
+### 2. Graph shows relation between rating and reviews which rating has more than 4.2 points.
 **Code :**  
 ```
 # scatter plot
