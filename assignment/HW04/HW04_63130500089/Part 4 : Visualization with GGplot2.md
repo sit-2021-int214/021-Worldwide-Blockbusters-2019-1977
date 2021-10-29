@@ -7,7 +7,6 @@ programming_book %>%
   ggplot(aes(x=Rating,y=Price)) +
   geom_point() + ggtitle("Rating and Price then price less than 15") +
   theme_minimal()
-
 ```
 ![image](https://user-images.githubusercontent.com/68915844/139450120-9b0a02d4-ec36-476f-851e-bd894b99fe0c.png)
 
