@@ -2,14 +2,14 @@
 
 ## 1. อยากทราบความนิยมที่ได้เรทติ้งสูงที่สุดและมีรูปแบบหนังสือชนิดไหน 
 
-## Code
+Code
 ```
 programming_book %>%
   select(Rating, Type) %>%
   filter(Rating == max(Rating))
 ```
 
-## Result
+Result
 ```
   Rating  Type
 1      5 ebook
