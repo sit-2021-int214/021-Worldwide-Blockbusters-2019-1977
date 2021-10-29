@@ -80,11 +80,3 @@ scatter <- books%>% filter(Rating > 4.2 ) %>%
           ggplot(aes(x=Rating, y=Reviews)) + geom_point(aes(color=Type)) +
           ggtitle("Relation between rating and reviews")
 
-
-
-
-
-
-
-
-
