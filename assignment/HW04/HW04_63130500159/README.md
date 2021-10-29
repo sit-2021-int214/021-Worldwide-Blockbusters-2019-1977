@@ -21,8 +21,9 @@ Created by Supapit Rattanataveesophon (ID : 63130500159)
     - Bar chart and pie chart
     - Scatter plot
 
-### About Us
+### About Us :
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
-### Instructor
+
+### Instructor :
 - ATCHARA TRAN-U-RAIKUL
 - JATAWAT XIE (gitHub : [safesit23](https://github.com/safesit23))
