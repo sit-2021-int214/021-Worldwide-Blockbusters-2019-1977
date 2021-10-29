@@ -18,12 +18,12 @@
  ```
  
 **Result :**   
-<img src="bar.png"> 
-<img src="pie.png">
+<p align="center">
+<img src="bar.png" width=700> 
+<img src="pie.png" width=700>
+</p>
 
 ---
-
-
 
 ### 2. Graph shows relation between rating and reviews which rating has more than equal 4.2.
 **Code :**  
@@ -36,5 +36,10 @@
 ```
 
 **Result :**  
-<img src="scatter.png">
----  
+<p align="center">
+<img src="scatter.png" width=700>
+</p>
+
+---
+
+### Let's see graphs and charts that are created with BI tools : tablueau [click here !](https://public.tableau.com/views/chart_16352816996460/chart?:language=en-US&:display_count=n&:origin=viz_share_link)
