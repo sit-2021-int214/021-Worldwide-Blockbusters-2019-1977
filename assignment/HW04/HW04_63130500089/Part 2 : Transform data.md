@@ -51,7 +51,7 @@ programming_book %>%
 22 3D Game Engine Architecture: Engineering Real-Time Applications with Wild Magic (The Morgan Kaufmann Series in Interactive 3d Technology)
 ```
 
-## 3. หนังสือที่ราคาถูกกว่าค่าเฉลี่ย
+## 3. หนังสือที่ราคาถูกกว่าค่าเฉลี่ยและมีรูปแบบหนังสือคือ "ebook"
 
 ## Code
 ```
@@ -62,261 +62,83 @@ programming_book %>%
 
 ## Result
 ```
-    Book_title
-1                                                                                               The Elements of Style
-2                                                                       The Information: A History, a Theory, a Flood
-3                                                                        Responsive Web Design Overview For Beginners
-4                                                 Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
-5                                                                                                    How Google Works
-6                                                                                                    The Meme Machine
-7                                                   Start with Why: How Great Leaders Inspire Everyone to Take Action
-8                                                      Algorithms to Live By: The Computer Science of Human Decisions
-9                              Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
-10                                                    ZX Spectrum Games Code Club: Twenty fun games to code and learn
-11                                                                    Sync: The Emerging Science of Spontaneous Order
-12                        The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World
-13                                                                                                           Ship It!
-14                                                                      Superintelligence: Paths, Dangers, Strategies
-15                          The Art of the Start: The Time-Tested, Battle-Hardened Guide for Anyone Starting Anything
-16                                        Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground
-17                                                 The Quark and the Jaguar: Adventures in the Simple and the Complex
-18  Linked: How Everything Is Connected to Everything Else and What It Means for Business, Science, and Everyday Life
-19                                          Our Final Invention: Artificial Intelligence and the End of the Human Era
-20                          The Innovators: How a Group of Hackers, Geniuses and Geeks Created the Digital Revolution
-21              Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems
-22                                            Big Data: A Revolution That Will Transform How We Live, Work, and Think
-23                                                                                Help Your Kids with Computer Coding
-24                                   The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography
-25                                                                                      Game Programming Golden Rules
-26                                                                       The Architecture of Open Source Applications
-27                                                         How to Create a Mind: The Secret of Human Thought Revealed
-28                                                           The Hidden Connections: A Science for Sustainable Living
-29                                                                                    Computability and Unsolvability
-30                                                                                            Adventures in Minecraft
-31                                                                                            Coding Games in Scratch
-32                                                                               Expert C Programming: Deep C Secrets
-33                                   Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
-34                                         The Cosmic Landscape: String Theory and the Illusion of Intelligent Design
-35                                                   What Is Life? with Mind and Matter and Autobiographical Sketches
-36                                                                        Six Degrees: The Science of a Connected Age
-37                          Nine Algorithms That Changed the Future: The Ingenious Ideas That Drive Today's Computers
-38                                                                                                The Society of Mind
-39                                                                                         JavaScript: The Good Parts
-40                                                The Pattern on the Stone: The Simple Ideas that Make Computers Work
-41                                          Accelerate: Building and Scaling High-Performing Technology Organizations
-42                                  Beginners Guide On PHP Programming: Quick And Easy Guide To Learn PHP With My-SQL
-43                                                                                             The Connection Machine
-44                                                                      Agile Retrospectives: Making Good Teams Great
-45             Python Programming Books Set: Python Programming for Beginners & Complete Guide for Python Programming
-46                                       The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win
-47                                                                Agile Web Development with Rails: A Pragmatic Guide
-48                                                                                     Scrum and XP from the Trenches
-49                A Smarter Way to Learn JavaScript: The new approach that uses technology to cut your effort in half
-50                                         97 Things Every Programmer Should Know: Collective Wisdom from the Experts
-51                                                                             Introduction to Functional Programming
-52                                                  An Introduction to Functional Programming Through Lambda Calculus
-53                                                                                        Chaos: Making a New Science
-54                                               The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom
-55                                                                                            Your First App: Node.js
-56                                              Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman
-57                                         Python Crash Course: A Hands-On, Project-Based Introduction to Programming
-58                                                            Invent Your Own Computer Games with Python, 3rd Edition
-59                                                                       The Principles of Object-Oriented JavaScript
-60                                                                                                   Joel on Software
-61                                                                         Sams Teach Yourself JavaScript in 24 Hours
-62                       The Shape of Inner Space: String Theory and the Geometry of the Universe's Hidden Dimensions
-63                                                                                     Seven Languages in Seven Weeks
-64                                                               Quality Software Management V 1 โ€“ Systems Thinking
-65                                      Python Programming For Beginners: Quick And Easy Guide For Python Programmers
-66                                                                                      Manage Your Project Portfolio
-67                                                                                          How Google Tests Software
-68                                                        Code: The Hidden Language of Computer Hardware and Software
-69                                                                                            Computability and Logic
-70                                                          Eloquent JavaScript: A Modern Introduction to Programming
-71                                                                  Does God Play Dice?: The New Mathematics of Chaos
-72                                                   Learn Java the Easy Way : A Hands-On Introduction to Programming
-73                                        Make Your Own Neural Network: An In-depth Visual Introduction For Beginners
-74                                                        The Golden Ticket: P, Np, and the Search for the Impossible
-75                                                                                                            Pro Git
-76                                   Automate the Boring Stuff with Python: Practical Programming for Total Beginners
-77                                                                                      Best of Game Programming Gems
-78                                                                              Sams Teach Yourself MySQL in 24 Hours
-79                                                                                                Algorithms Unlocked
-80                                                        Practical SQL: A Beginner's Guide to Storytelling with Data
-81                                                                                            CSS: The Missing Manual
-82                                                                      Blueprints Visual Scripting for Unreal Engine
-83                                                                  Soft Skills: The Software Developer's Life Manual
-84                                                                                                 Doing Data Science
-85                                                               Automate This: How Algorithms Came to Rule Our World
-86                                                       How to Think Like a Computer Scientist: Learning with Python
-87                                                                                                   Beginning Java 2
-88                                                            Learn You a Haskell for Great Good!: A Beginner's Guide
-89                                                                                Learn You a Haskell for Great Good!
-90                                                                                                    Unity in Action
-91                                                                         The Goal: A Process of Ongoing Improvement
-92                                                                                                 The Little Schemer
-93                                                                                    Functional Programming in Scala
-94                                                                                High Performance Browser Networking
-95                                                                               Sams Teach Yourself Perl in 24 Hours
-96                                                                                          Learn Python The Hard Way
-97                                                          Effective Python: 59 Specific Ways to Write Better Python
-98                                                                                 Programming in Lua, Fourth Edition
-99                                   Release It!: Design and Deploy Production-Ready Software (Pragmatic Programmers)
-100                                                   Think Complexity: Complexity Science and Computational Modeling
-101                                                                                                     A Tour of C++
-102                                                                                                     Reviewing C++
-103                                                             Functional Programming Application and Implementation
-104                               The Elements of Computing Systems: Building a Modern Computer from First Principles
-105                                                          Simulation of Digital Communication Systems using Matlab
-106                                                                                         Game Programming Patterns
-107                                        The Practice of Programming (Addison-Wesley Professional Computing Series)
-108                                                                           From Mathematics to Generic Programming
-109                                                             REST in Practice: Hypermedia and Systems Architecture
-110                                                                    The Visual Display of Quantitative Information
-111                                                               Fearless Change: Patterns for Introducing New Ideas
-112                                                                                           Elements of Programming
-113                                                                                                     Learning Ruby
-114                                                            The Design of Design: Essays from a Computer Scientist
-115                       Build Web Applications with Java: Learn every aspect to build web applications from scratch
-116                                                                                                More Effective C++
-117                                            Cryptography Engineering: Design Principles and Practical Applications
-118                                         Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript
-119                                                                                      Machine Learning for Hackers
-120                                                                                                     Code Complete
-121                                                                                 Making Games with Python & Pygame
-122                                         Big Data: Principles and best practices of scalable realtime data systems
-123                                                            The Mythical Man-Month: Essays on Software Engineering
-124                                                   The Clean Coder: A Code of Conduct for Professional Programmers
-125                                                                                                Programming Pearls
-126                                                                                                       C# in Depth
-127                                                                                                     Learning Perl
-128                                  The Scrumban [R]Evolution: Getting the Most Out of Agile, Scrum, and Lean Kanban
-129                                                                                       Real-World Machine Learning
-130                                                               PHP and MySQL Web Development (Developer's Library)
-131                                                                                         Managing Data Using Excel
-132          Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
-133                                                                                    Unity Virtual Reality Projects
-134                                                                                    The Sciences of the Artificial
-135                                                                Programming Ruby: The Pragmatic Programmers' Guide
-136                                                                                          Python for Data Analysis
-137                                                           Data Science from Scratch: First Principles with Python
-138                                     The Linux Programming Interface: A Linux and Unix System Programming Handbook
-139                                                            Clean Code: A Handbook of Agile Software Craftsmanship
-140                                                                         Peopleware: Productive Projects and Teams
-141                                                     Extreme Programming Explained: Embrace Change (The XP Series)
-142                                                                               Test Driven Development: By Example
-143                                             UML Distilled: A Brief Guide to the Standard Object Modeling Language
-144                              Effective STL: 50 Specific Ways to Improve Your Use of the Standard Template Library
-145                                                          Introduction to Computation and Programming Using Python
-146                                              Essential Scrum: A Practical Guide to the Most Popular Agile Process
-147                                                                          Practical Object Oriented Design in Ruby
-148                                                                                           The Boost C++ Libraries
-149                                                                                   Building an FPS Game with Unity
-150                                       The It Handbook for Business: Managing Information Technology Support Costs
-151                                                DIV, Grad, Curl, and All That: An Informal Text on Vector Calculus
-152                                                                       Design and Validation of Computer Protocols
-153                                                                            The Psychology of Computer Programming
-154                                                                                      Make Your Own Neural Network
-155                                                                 Accelerated C++: Practical Programming by Example
-156                                                                                                     The Rails Way
-157                                                                                                The Joy of Clojure
-158                             More Exceptional C++: 40 New Engineering Puzzles, Programming Problems, and Solutions
-159                            Exceptional C++ Style: 40 New Engineering Puzzles, Programming Problems, and Solutions
-160                                                               Computational Geometry: Algorithms and Applications
-161                                                                                        Head First Design Patterns
-162                    Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
-163                                                                                Quantum Computing Since Democritus
-164                                                                                    Data Structures and Algorithms
-165                                                                             Android NDK Game Development Cookbook
-166                                                                                   Assembly Language: Step-By-Step
+                               Book_title
+1                 Your First App: Node.js
+2                     Algorithms Unlocked
+3     Learn You a Haskell for Great Good!
+4 From Mathematics to Generic Programming
 
 ```
 
-## 1. อยากทราบความนิยมที่ได้เรทติ้สูงที่สุดและมีรูปแบบหนังสือชนิดไหน 
+## 4. แสดงชื่อหนังสือที่มีเรทติ้งต่ำกว่า 3.5 
 
 ## Code
 ```
 programming_book %>%
-  select(Rating, Type) %>%
-  filter(Rating == max(Rating))
+  select(Book_title)%>%
+  filter(programming_book$Rating < 3.5)
 ```
 
 ## Result
 ```
-  Rating  Type
-1      5 ebook
+Book_title
+1                                                                                          Responsive Web Design Overview For Beginners
+2                                                                                                         Game Programming Golden Rules
+3                                                                                            Sams Teach Yourself JavaScript in 24 Hours
+4                                                                                                                      Beginning Java 2
+5                                                                                                  Sams Teach Yourself Perl in 24 Hours
+6                                                                                                        Unity Virtual Reality Projects
+7                                                                                   Advanced Game Programming: A Gamedev.Net Collection
+8                                             Cross-Platform Game Programming (Game Development) (Charles River Media Game Development)
+9                                                                               Lambda-Calculus, Combinators and Functional Programming
+10                                                                          Optimized C++: Proven Techniques for Heightened Performance
+11 3D Game Engine Design: A Practical Approach to Real-Time Computer Graphics (The Morgan Kaufmann Series in Interactive 3D Technology)
 ```
 
-## 1. อยากทราบความนิยมที่ได้เรทติ้สูงที่สุดและมีรูปแบบหนังสือชนิดไหน 
+## 5. แสดงชื่อหนังสือและรูปแบบหนังสือยอดฮิตเรียงตามลำดับจากมากไปน้อยและมีคนรีวิวช่วงระหว่าง 1,000 ถึง 1,200 คน 
 
 ## Code
 ```
 programming_book %>%
-  select(Rating, Type) %>%
-  filter(Rating == max(Rating))
+  select(Book_title,Type, Rating)%>%
+  filter(programming_book$Reviews > 1000,  programming_book$Reviews < 1200)%>%
+  arrange(desc(Rating))
 ```
 
 ## Result
 ```
-  Rating  Type
-1      5 ebook
+                                                              Book_title      Type Rating
+1            Practical SQL: A Beginner's Guide to Storytelling with Data Paperback   4.34
+2                                                     The Little Schemer Paperback   4.28
+3                                      C++ Templates: The Complete Guide Hardcover   4.24
+4                                         Scrum and XP from the Trenches Paperback   4.20
+5                      Growing Object-Oriented Software, Guided by Tests Paperback   4.19
+6                                            Real-World Machine Learning Paperback   4.18
+7                                                  C: A Reference Manual Paperback   4.16
+8  Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman Paperback   4.12
+9                                                Computability and Logic Paperback   4.04
+10  How to Design Programs: An Introduction to Programming and Computing Hardcover   4.00
+11                         Agile Retrospectives: Making Good Teams Great Paperback   3.93
+12                                                      The Meme Machine Paperback   3.84
+13                   Agile Web Development with Rails: A Pragmatic Guide Paperback   3.84
+14                                                         The Rails Way Paperback   3.83
 ```
 
-## 1. อยากทราบความนิยมที่ได้เรทติ้สูงที่สุดและมีรูปแบบหนังสือชนิดไหน 
+## 6. แสดงชื่อหนังสือและจำนวนหน้าที่เรทติ้งมากกว่าค่าเฉลี่ยและเป็นรูปแบบหนังสือของ "Kindle Edition" โดยเรียงจากจำนวนหน้าน้อยไปหามาก  
 
 ## Code
 ```
 programming_book %>%
-  select(Rating, Type) %>%
-  filter(Rating == max(Rating))
+  select(Book_title, Number_Of_Pages)%>%
+  filter(programming_book$Rating > mean(programming_book$Rating), Number_Of_Pages > mean(Number_Of_Pages))%>%
+  arrange(Number_Of_Pages)
 ```
 
 ## Result
 ```
-  Rating  Type
-1      5 ebook
-```
-
-## 1. อยากทราบความนิยมที่ได้เรทติ้สูงที่สุดและมีรูปแบบหนังสือชนิดไหน 
-
-## Code
-```
-programming_book %>%
-  select(Rating, Type) %>%
-  filter(Rating == max(Rating))
-```
-
-## Result
-```
-  Rating  Type
-1      5 ebook
-```
-## 1. อยากทราบความนิยมที่ได้เรทติ้สูงที่สุดและมีรูปแบบหนังสือชนิดไหน 
-
-## Code
-```
-programming_book %>%
-  select(Rating, Type) %>%
-  filter(Rating == max(Rating))
-```
-
-## Result
-```
-  Rating  Type
-1      5 ebook
-```
-
-## 1. อยากทราบความนิยมที่ได้เรทติ้สูงที่สุดและมีรูปแบบหนังสือชนิดไหน 
-
-## Code
-```
-programming_book %>%
-  select(Rating, Type) %>%
-  filter(Rating == max(Rating))
-```
-
-## Result
-```
-  Rating  Type
-1      5 ebook
+                                                                   Book_title Number_Of_Pages
+1                                The Principles of Object-Oriented JavaScript             120
+2                                                Make Your Own Neural Network             252
+3 Make Your Own Neural Network: An In-depth Visual Introduction For Beginners             316
+4                    Simulation of Digital Communication Systems using Matlab
 ```
