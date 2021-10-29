@@ -95,7 +95,7 @@ Book_title
 11 3D Game Engine Design: A Practical Approach to Real-Time Computer Graphics (The Morgan Kaufmann Series in Interactive 3D Technology)
 ```
 
-## 5. แสดงชื่อหนังสือและรูปแบบหนังสือที่มีคนรีวิวช่วงระหว่าง 1,000 ถึง 1,200 คน โดยเรียงตามลำดับจากมากไปน้อยของยอดฮิตหนังสือ
+## 5. แสดงชื่อหนังสือและรูปแบบหนังสือที่มีคนรีวิวช่วงระหว่าง 1,000 ถึง 1,200 คน โดยเรียงจากมากไปน้อยของยอดฮิตหนังสือ
 
 ## Code
 ```
