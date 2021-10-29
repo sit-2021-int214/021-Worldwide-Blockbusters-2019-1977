@@ -1,6 +1,6 @@
 ## Part 1 : Explore the dataset
 
-## Step 1 : เรียกใช้ Library
+Step 1 : เรียกใช้ Library
 ```
 #library
 library(dplyr)
@@ -8,7 +8,7 @@ library(readr)
 library(ggplot2)
 ```
 
-## Step 2 : Import Dataset
+Step 2 : Import Dataset
 ```
 programming_book <- read.csv('https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv')
 ```
