@@ -1,6 +1,7 @@
 ## Visualization with GGplot2
 
 ## 1. เรทติ้งและราคาของหนังสือทั้งหมดที่มีราคาต่ำกว่า 15 ในรูปแบบกราฟ
+Code
 ```
 programming_book %>%
   filter(Price < 15) %>%
@@ -8,6 +9,8 @@ programming_book %>%
   geom_point() + ggtitle("Rating and Price then price less than 15") +
   theme_minimal()
 ```
+Result
+
 ![image](https://user-images.githubusercontent.com/68915844/139450120-9b0a02d4-ec36-476f-851e-bd894b99fe0c.png)
 
 
@@ -15,6 +18,7 @@ programming_book %>%
 
 
 ## 2. รูปแบบหนังสือของ HardCover มีเรทติ้งเท่าไหร่ในรูปแบบกราฟ
+Code
 ```
 programming_book %>%
   filter(Type == "Hardcover")%>%
@@ -23,6 +27,7 @@ programming_book %>%
   ggtitle("Rating of Hardcover Type") +
   theme_bw()
 ```
+Result
 
 ![image](https://user-images.githubusercontent.com/68915844/139427351-2c6f9ea4-63fb-4a2c-be85-a1fc3a284e2e.png)
 
