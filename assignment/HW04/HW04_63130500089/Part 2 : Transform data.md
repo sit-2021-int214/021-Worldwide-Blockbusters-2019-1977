@@ -17,14 +17,14 @@ Result
 
 ## 2. หนังสือที่ไม่เคยได้รับการรีวิวเลยมีหนังสือเรื่องใดบ้าง 
 
-## Code
+Code
 ```
 programming_book %>%
   select(Book_title)%>%
   filter(programming_book$Reviews == 0)
 ```
 
-## Result
+Result
 ```
     Book_title
 1                                                                                               Responsive Web Design Overview For Beginners
@@ -53,14 +53,14 @@ programming_book %>%
 
 ## 3. หนังสือที่ราคาถูกกว่าค่าเฉลี่ยและมีรูปแบบหนังสือคือ "ebook"
 
-## Code
+Code
 ```
 programming_book %>%
   select(Book_title)%>%
   filter(programming_book$Price < mean(programming_book$Price), programming_book$Type == "ebook")
 ```
 
-## Result
+Result
 ```
                                Book_title
 1                 Your First App: Node.js
@@ -72,14 +72,14 @@ programming_book %>%
 
 ## 4. แสดงชื่อหนังสือที่มีเรทติ้งต่ำกว่า 3.5 
 
-## Code
+Code
 ```
 programming_book %>%
   select(Book_title)%>%
   filter(programming_book$Rating < 3.5)
 ```
 
-## Result
+Result
 ```
 Book_title
 1                                                                                          Responsive Web Design Overview For Beginners
@@ -97,7 +97,7 @@ Book_title
 
 ## 5. แสดงชื่อหนังสือและรูปแบบหนังสือที่มีคนรีวิวช่วงระหว่าง 1,000 ถึง 1,200 คน โดยเรียงจากมากไปน้อยของยอดฮิตหนังสือ
 
-## Code
+Code
 ```
 programming_book %>%
   select(Book_title,Type, Rating)%>%
@@ -105,7 +105,7 @@ programming_book %>%
   arrange(desc(Rating))
 ```
 
-## Result
+Result
 ```
                                                               Book_title      Type Rating
 1            Practical SQL: A Beginner's Guide to Storytelling with Data Paperback   4.34
@@ -126,7 +126,7 @@ programming_book %>%
 
 ## 6. แสดงชื่อหนังสือและจำนวนหน้าที่เรทติ้งมากกว่าค่าเฉลี่ยและเป็นรูปแบบหนังสือของ "Kindle Edition" โดยเรียงจากจำนวนหน้าน้อยไปหามาก  
 
-## Code
+Code
 ```
 programming_book %>%
   select(Book_title, Number_Of_Pages)%>%
@@ -134,7 +134,7 @@ programming_book %>%
   arrange(Number_Of_Pages)
 ```
 
-## Result
+Result
 ```
                                                                    Book_title Number_Of_Pages
 1                                The Principles of Object-Oriented JavaScript             120
