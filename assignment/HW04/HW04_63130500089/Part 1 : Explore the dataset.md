@@ -1,6 +1,6 @@
 ## Part 1 : Explore the dataset
 
-Step 1 : เรียกใช้ Library
+## Step 1 : เรียกใช้ Library
 ```
 #library
 library(dplyr)
@@ -8,7 +8,7 @@ library(readr)
 library(ggplot2)
 ```
 
-Step 2 : Import Dataset
+## Step 2 : Import Dataset
 ```
 programming_book <- read.csv('https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv')
 ```
@@ -33,10 +33,10 @@ $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14
 ```
 
 ## Description Dataset
-Rating : คะแนนของหนังสือ
-Reviews : จำนวนคนที่รีวิว
-Book_title : ชื่อหนังสือ
-Description : คำอธิบายของหนังสือ
-Number_Of_Pages : จำนวนหน้าของหนังสือ
-Type : รูปแบบของหนังสือ
-Price : ราคาของหนังสือ
+◆ Rating : คะแนนของหนังสือ
+◆ Reviews : จำนวนคนที่รีวิว
+◆ Book_title : ชื่อหนังสือ
+◆ Description : คำอธิบายของหนังสือ
+◆ Number_Of_Pages : จำนวนหน้าของหนังสือ
+◆ Type : รูปแบบของหนังสือ
+◆ Price : ราคาของหนังสือ
