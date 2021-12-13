@@ -61,7 +61,10 @@ What we want to know :
 3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step7_define_question.md) : Step 7
    - Define a questions
  
-4. [Data Visualization] `final`
+4. Data Visualization `final` : Step 8
+   - [Let's see our Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDU3YTdlNzAtMDJiYS00MTM2LTk2YmEtMzUzZWYzOTBiYmU0IiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection)
+
+5. [Hypothesis Testing](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step9_hypo_testing.md) `final` : Step 9
 
 ## Resources
 
