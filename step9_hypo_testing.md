@@ -1,31 +1,58 @@
-# Hypothesis testing
+# Analytical Inferential Statistics
+Statistical inference is the process of using data analysis to infer properties of an underlying distribution of probability. Inferential statistical analysis infers properties of a population, for example by testing hypotheses and deriving estimates. It is assumed that the observed data set is sampled from a larger population. [(Reference)](https://en.wikipedia.org/wiki/Statistical_inference)
 
-is a method of statistical inference. An alternative hypothesis is proposed for the probability distribution of the data, either explicitly or only informally. The comparison of the two models is deemed statistically significant if, according to a threshold probability—the significance level—the data would be unlikely to occur if the null hypothesis were true. [Ref](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)
+## Step 9 : Hypothesis testing
+Hypothesis testing is an act in statistics whereby an analyst tests an assumption regarding a population parameter. The methodology employed by the analyst depends on the nature of the data used and the reason for the analysis. [(Reference)](https://www.investopedia.com/terms/h/hypothesistesting.asp)
 
-### Step to do:
+### Question
+- The total number of films in Walt Disney is 76. 6 films are suitable for PG-13 in MPAA rating (Parents Strongly Cautioned, Some Material May Be Inappropriate for Children Under 13) so, All PG-13 rated films will have a IMDb rating more than 8. (Let alpha = 0.05)
 
-0. Assign variables:
-   - u0 or p0
-   - xbar or pbar
-   - n
-   - sd (or sigma)
-   - alpha (default is 0.05)
+### Step 0 : Assign variables
+```
+  ใส่ตัวแปร
+```
   
-1. State the hypothesis
+### Step 1 : State the hypothesis
+```
+ใส่สมมติฐาน
+H0
+Ha
+```
+### Step 2 : Select Level of significance (alpha)
+```
+ใส่ค่า alpha
+```
 
-2. Select Level of significance (alpha)
+### Step 3 : Find the values of standard error of the proportion and Test static
+```
+ใส่ที่หา se กับ z
 
-3. Select Test statistic (This formula for one population)
+ex from psafe
    - z/t <- (xbar - u0) / (sd/sqrt(n))
    - z <- (pbar-p0) / sqrt((p0\*(1-p0))/n)
+```
 
 
-4. Finding P-value approach or Critical Value approach
+### Step 4 : Finding P-value approach or Critical Value approach
+```
+ใส่ที่หา p value กับ critical 
+pnorm, qnorm
+
+ex from psafe
    - P-value for Z: `pvalue <- pnorm(z)`
    - Critical Value for Z: `zalpha <- qnorm(alpha)`
    - P-value for T: `pvalue <- pt(q, df,lower.tail = TRUE)`
    - talpha for T: `talpha <- qt(p, df, lower.tail = TRUE)`
-  
-5. Compare P-value with alpha or z/t with zalpha/talpha
+ ```
+ 
+### Step 5 : Compare P-value with alpha or z/t with zalpha/talpha
+```
+ใส่ if-else ที่ check ค่า reject/not reject h0
+```
 
 6. Conclusion
+```
+สรุป
+```
+
+
