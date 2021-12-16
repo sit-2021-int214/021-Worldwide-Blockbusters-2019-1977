@@ -235,7 +235,9 @@ with 57 more rows
 เนื่องจากมี worldwide_gross เท่ากับ domestic_gross
 ```
 ---
-### Next to step 8 : Data Visualization (Microsoft Power BI) [Click Here!](https://app.powerbi.com/view?r=eyJrIjoiOGU1ODkwNzItMTgyZi00Nzg2LWE5ZDctYmJkYTMyYmM4YTZmIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
+### Next to step 8 : Data Visualization (Microsoft Power BI) [Click Here!](https://app.powerbi.com/view?r=eyJrIjoiOGU1ODkwNzItMTgyZi00Nzg2LWE5ZDctYmJkYTMyYmM4YTZmIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D) or 
+### Next to step 9 : Analytical Inferential Statistics [Click Here!](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step9_hypo_testing.md)
+
 
 
 
