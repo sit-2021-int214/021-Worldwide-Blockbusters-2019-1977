@@ -14,13 +14,12 @@ Hypothesis testing is an act in statistics whereby an analyst tests an assumptio
   
 ### Step 9.1 : State the hypothesis
 ```
-ใส่สมมติฐาน
-H0
-Ha
+Ho : μ > 8
+Ha : μ <= 8
 ```
 ### Step 9.2 : Select Level of significance (alpha)
 ```
-ใส่ค่า alpha
+alpha = 0.05 
 ```
 
 ### Step 9.3 : Find the values of standard error of the proportion and Test static
