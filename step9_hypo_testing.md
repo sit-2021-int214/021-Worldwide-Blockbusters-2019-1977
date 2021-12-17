@@ -30,7 +30,6 @@ alpha = 0.05
 ```
 se_of_p <- sd/sqrt(num_of_WaltDisney) = 0.07841086
 tValue <- (mean_WaltDisney - p0)/se_of_p = 4.081068
-
 ```
 
 
@@ -38,13 +37,11 @@ tValue <- (mean_WaltDisney - p0)/se_of_p = 4.081068
 ```
 pValue <- pnorm(4) = 0.9999683
 t_critical <- qnorm(0.05) = -1.959964
-
  ```
  
 ### Step 9.5 : Compare P-value with alpha or z/t with zalpha/talpha
 ```
 #p-value
-
 if(p<0.05){
   print("reject H0")
 }else{
@@ -57,14 +54,12 @@ if(t<t_critical){
 }else{
   print("accept H0")
 }
-
 ```
 
-##Result
+### Result
 ```
 p-value = reject Ho
 critical = reject Ho 
-
 ```
 
 ### Step 9.6 : Conclusion
