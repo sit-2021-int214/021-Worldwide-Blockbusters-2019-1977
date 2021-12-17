@@ -5,8 +5,7 @@ Statistical inference is the process of using data analysis to infer properties 
 Hypothesis testing is an act in statistics whereby an analyst tests an assumption regarding a population parameter. The methodology employed by the analyst depends on the nature of the data used and the reason for the analysis. [(Reference)](https://www.investopedia.com/terms/h/hypothesistesting.asp)
 
 ### Question
-- The total number of films in Walt Disney is 76. 6 films are suitable for PG-13 in MPAA rating (Parents Strongly Cautioned, Some Material May Be Inappropriate for Children Under 13) so, All PG-13 rated films will have a IMDb rating more than 8. (Let alpha = 0.05)
-
+- หนังทั้งหมดของค่าย walt disney มีทั้งหมด 76 เรื่อง จากหนังทั้งหมด 430 เรื่อง โดยมีค่าเฉลี่ยของ imdb rating = 7.08 ซึ่งเราได้ตั้งสมมติฐานว่า imbd rating ของ walt disney จะมี imbd rating มากกว่าค่าเฉลี่ยของหนังทั้งหมดหรือไม่ ที่ระดับความเชื่อมั่น 95%. (alpha = 0.05)
 ### Step 9.0 : Assign variables
 ```
 n <- 430
