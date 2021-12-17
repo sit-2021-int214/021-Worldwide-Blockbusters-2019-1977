@@ -12,7 +12,7 @@ Hypothesis testing is an act in statistics whereby an analyst tests an assumptio
   
   n <- 
   alpha <- 0.05
-  p0 <- 
+  p0 <- 0.08
 ```
   
 ### Step 9.1 : State the hypothesis
