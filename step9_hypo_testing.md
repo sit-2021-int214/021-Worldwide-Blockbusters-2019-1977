@@ -28,34 +28,48 @@ alpha = 0.05
 
 ### Step 9.3 : Find the values of standard error of the proportion and Test static
 ```
-ใส่ที่หา se กับ z
+se_of_p <- sd/sqrt(num_of_WaltDisney) = 0.07841086
+tValue <- (mean_WaltDisney - p0)/se_of_p = 4.081068
 
-ex from psafe
-   - z/t <- (xbar - u0) / (sd/sqrt(n))
-   - z <- (pbar-p0) / sqrt((p0\*(1-p0))/n)
 ```
 
 
 ### Step 9.4 : Finding P-value approach or Critical Value approach
 ```
-ใส่ที่หา p value กับ critical 
-pnorm, qnorm
+pValue <- pnorm(4) = 0.9999683
+t_critical <- qnorm(0.05) = -1.959964
 
-ex from psafe
-   - P-value for Z: `pvalue <- pnorm(z)`
-   - Critical Value for Z: `zalpha <- qnorm(alpha)`
-   - P-value for T: `pvalue <- pt(q, df,lower.tail = TRUE)`
-   - talpha for T: `talpha <- qt(p, df, lower.tail = TRUE)`
  ```
  
 ### Step 9.5 : Compare P-value with alpha or z/t with zalpha/talpha
 ```
-ใส่ if-else ที่ check ค่า reject/not reject h0
+#p-value
+
+if(p<0.05){
+  print("reject H0")
+}else{
+  print("accept H0")
+}
+
+#critical
+if(t<t_critical){
+  print("reject H0")
+}else{
+  print("accept H0")
+}
+
+```
+
+##Result
+```
+p-value = reject Ho
+critical = reject Ho 
+
 ```
 
 ### Step 9.6 : Conclusion
 ```
-สรุป
+imbd rating ของ Walt Disney มีค่าน้อยกว่าค่าเฉลี่ยของหนังทั้งหมด
 ```
 
 
