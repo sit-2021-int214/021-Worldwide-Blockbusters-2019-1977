@@ -5,66 +5,73 @@ Statistical inference is the process of using data analysis to infer properties 
 Hypothesis testing is an act in statistics whereby an analyst tests an assumption regarding a population parameter. The methodology employed by the analyst depends on the nature of the data used and the reason for the analysis. [(Reference)](https://www.investopedia.com/terms/h/hypothesistesting.asp)
 
 ### Question
-- หนังทั้งหมดของค่าย walt disney มีทั้งหมด 76 เรื่อง จากหนังทั้งหมด 430 เรื่อง โดยมีค่าเฉลี่ยของ imdb rating = 7.08 ซึ่งเราได้ตั้งสมมติฐานว่า imbd rating ของ walt disney จะมี imbd rating มากกว่าค่าเฉลี่ยของหนังทั้งหมดหรือไม่ ที่ระดับความเชื่อมั่น 95%. (alpha = 0.05)
+- The total number of top 10 worldwide blockbuster between 1997 and 2019 is 430, 76 films are in Walt Disney. All 430 films have an average IMDb rating at 7.076744. We hypothesize that an average of IMDb rating of Walt Disney films will have equal an average of 430 films or not, at 95% confidence interval.
+
 ### Step 9.0 : Assign variables
 ```
-n <- 430
-num_of_WaltDisney <- 76
-sd <- 0.6357
-mean_n <- 7.08
-mean_WaltDisney <- 7.3
-
+wdn_n <- 76                   # The number of Walt Disney films
+wdn_imdb_mean <- 7.356579     # Walt Disney's mean
+wdn_imdb_sd <- 0.6835857      # Walt Disney's standard deviation
+wdn_mue0 <- 7.076744          # μ0
 ```
   
 ### Step 9.1 : State the hypothesis
 ```
-Ho = 7.08
-Ha != 7.08
+Ho: μ = 7.076744 
+Ha: μ != 7.076744
 ```
 ### Step 9.2 : Select Level of significance (alpha)
 ```
-alpha = 0.05 
+alpha <- 0.05                 # Alpha
+alpha_2 <- 0.05/2             # Alpha/2
 ```
 
-### Step 9.3 : Find the values of standard error of the proportion and Test static
+### Step 9.3 : Find the values of standard error of the mean and Test static
 ```
-se_of_p <- sd/sqrt(num_of_WaltDisney) = 0.07841086
-tValue <- (mean_WaltDisney - p0)/se_of_p = 4.081068
+se <- wdn_imdb_sd/sqrt(wdn_n)         # Standard error of the mean
+t <- (wdn_imdb_mean - wdn_mue0)/se    # Test static
 ```
-
-
+Result :
+```
+# se : 0.07841266
+# t : 3.568748
+```
 ### Step 9.4 : Finding P-value approach or Critical Value approach
 ```
-pValue <- pnorm(4) = 0.9999683
-t_critical <- qnorm(0.05) = -1.959964
- ```
- 
+p_value <- pnorm(t)                   # p-value = 0.9998207 แต่ p-value มีค่าเยอะ จึงเอา 1 มาลบ
+
+p_value_update <- 1-p_value           # so, p-value = 0.0001793457
+t_critical <- qnorm(alpha_2)          # t-critical
+```
+Result :
+```
+# p_value : 0.0001793457
+# t_critical : -1.959964
+```
+
 ### Step 9.5 : Compare P-value with alpha or z/t with zalpha/talpha
 ```
-#p-value
-if(p<0.05){
+if(p_value_update < alpha_2){     # p-value with alpha/2
   print("reject H0")
 }else{
   print("accept H0")
 }
 
-#critical
-if(t<t_critical){
+if(t > t_critical){               # Test static with t-critical
   print("reject H0")
 }else{
   print("accept H0")
 }
 ```
-
-### Result
+Result :
 ```
-p-value = reject Ho
-critical = reject Ho 
+# p-value : "reject H0"
+# critical : "reject H0"
 ```
 
 ### Step 9.6 : Conclusion
 ```
-imbd rating ของ Walt Disney มีค่าน้อยกว่าค่าเฉลี่ยของหนังทั้งหมด
+To sum-up, an average of IMDb rating of all Walt Disney films have not equal an average of IMDb rating of all 430 films.
 ```
 
 
