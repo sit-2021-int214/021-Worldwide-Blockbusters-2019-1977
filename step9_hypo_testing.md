@@ -9,21 +9,18 @@ Hypothesis testing is an act in statistics whereby an analyst tests an assumptio
 
 ### Step 9.0 : Assign variables
 ```
-  n = 430
-  n_walt_disdey  <- blockbusters %>% 
-                    filter(domestic_distributor == "Walt Disney")%>% count()   =76
-                    num_walDisney_PG_13 <- blockbusters %>% 
-                    filter(domestic_distributor == "Walt Disney") %>% 
-                    filter(mpaa_rating == 'PG-13') %>% 
-                    filter(imdb_rating >= 8) %>% 
-                    count()  =6
-  p0 <- 0.08
+n <- 430
+num_of_WaltDisney <- 76
+sd <- 0.6357
+mean_n <- 7.08
+mean_WaltDisney <- 7.3
+
 ```
   
 ### Step 9.1 : State the hypothesis
 ```
-Ho : μ > 8
-Ha : μ <= 8
+Ho = 7.08
+Ha != 7.08
 ```
 ### Step 9.2 : Select Level of significance (alpha)
 ```
