@@ -47,6 +47,7 @@ What we want to know :
 - R Language
 - R Studio Desktop
 - Microsoft Power BI
+- Microsoft Excel
 
 
 ## Table of Contents
@@ -64,10 +65,9 @@ What we want to know :
 3. [Define a Questions](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step7_define_question.md) : Step 7
    - Define a questions
  
-4. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiOGU1ODkwNzItMTgyZi00Nzg2LWE5ZDctYmJkYTMyYmM4YTZmIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
- `final` : Step 8
+4. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiOGU1ODkwNzItMTgyZi00Nzg2LWE5ZDctYmJkYTMyYmM4YTZmIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D) : Step 8
    
-5. [Analytical Inferential Statistics](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step9_hypo_testing.md) `final` : Step 9
+5. [Analytical Inferential Statistics](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/step9_hypo_testing.md) : Step 9
    - Hypothesis Testing
    
 ## Resources
@@ -76,6 +76,7 @@ What we want to know :
 - [blockbusters_original.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_original.csv) : Original Dataset
 - [blockbusters_clean.csv](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_clean.csv) : Data Cleaning and Data Transformation
 - [blockbusters_analysis.R](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/blockbusters_analysis.R) : Exploratory Data Analysis
+- [hypotesting.R](https://github.com/sit-2021-int214/021-Worldwide-Blockbusters-2019-1977/blob/main/hypotesting.R) : Analytical Inferential Statistics
 
 
 ### References
