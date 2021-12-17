@@ -9,9 +9,14 @@ Hypothesis testing is an act in statistics whereby an analyst tests an assumptio
 
 ### Step 9.0 : Assign variables
 ```
-  
-  n <- blockbusters %>% filter(domestic_distributor == "Walt Disney")%>% count()  =76
-  num_walDisney_PG_13 <- blockbusters %>% filter(domestic_distributor == "Walt Disney") %>% filter(mpaa_rating == 'PG-13')%>% filter(imdb_rating >= 8) %>% count() =6
+  n = 430
+  n_walt_disdey  <- blockbusters %>% 
+                    filter(domestic_distributor == "Walt Disney")%>% count()   =76
+                    num_walDisney_PG_13 <- blockbusters %>% 
+                    filter(domestic_distributor == "Walt Disney") %>% 
+                    filter(mpaa_rating == 'PG-13') %>% 
+                    filter(imdb_rating >= 8) %>% 
+                    count()  =6
   p0 <- 0.08
 ```
   
