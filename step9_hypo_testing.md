@@ -9,7 +9,10 @@ Hypothesis testing is an act in statistics whereby an analyst tests an assumptio
 
 ### Step 9.0 : Assign variables
 ```
-  ใส่ตัวแปร
+  
+  n <- 
+  alpha <- 0.05
+  p0 <- 
 ```
   
 ### Step 9.1 : State the hypothesis
