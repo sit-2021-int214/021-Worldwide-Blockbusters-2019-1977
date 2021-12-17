@@ -7,23 +7,23 @@ Hypothesis testing is an act in statistics whereby an analyst tests an assumptio
 ### Question
 - The total number of films in Walt Disney is 76. 6 films are suitable for PG-13 in MPAA rating (Parents Strongly Cautioned, Some Material May Be Inappropriate for Children Under 13) so, All PG-13 rated films will have a IMDb rating more than 8. (Let alpha = 0.05)
 
-### Step 0 : Assign variables
+### Step 9.0 : Assign variables
 ```
   ใส่ตัวแปร
 ```
   
-### Step 1 : State the hypothesis
+### Step 9.1 : State the hypothesis
 ```
 ใส่สมมติฐาน
 H0
 Ha
 ```
-### Step 2 : Select Level of significance (alpha)
+### Step 9.2 : Select Level of significance (alpha)
 ```
 ใส่ค่า alpha
 ```
 
-### Step 3 : Find the values of standard error of the proportion and Test static
+### Step 9.3 : Find the values of standard error of the proportion and Test static
 ```
 ใส่ที่หา se กับ z
 
@@ -33,7 +33,7 @@ ex from psafe
 ```
 
 
-### Step 4 : Finding P-value approach or Critical Value approach
+### Step 9.4 : Finding P-value approach or Critical Value approach
 ```
 ใส่ที่หา p value กับ critical 
 pnorm, qnorm
@@ -45,12 +45,12 @@ ex from psafe
    - talpha for T: `talpha <- qt(p, df, lower.tail = TRUE)`
  ```
  
-### Step 5 : Compare P-value with alpha or z/t with zalpha/talpha
+### Step 9.5 : Compare P-value with alpha or z/t with zalpha/talpha
 ```
 ใส่ if-else ที่ check ค่า reject/not reject h0
 ```
 
-6. Conclusion
+### Step 9.6 : Conclusion
 ```
 สรุป
 ```
